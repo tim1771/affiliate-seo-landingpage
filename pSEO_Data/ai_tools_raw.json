@@ -11,6 +11,70 @@
     ]
   },
   {
+    "name": "Claude",
+    "link": "https://anthropic.com/claude",
+    "description": "The most secure and capable AI assistant from Anthropic.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "chatbot",
+      "writing",
+      "coding"
+    ]
+  },
+  {
+    "name": "Gemini",
+    "link": "https://deepmind.google/technologies/gemini/",
+    "description": "Google's most capable AI model, built from the ground up to be multimodal.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "chatbot",
+      "writing",
+      "coding"
+    ]
+  },
+  {
+    "name": "Gamma",
+    "link": "https://gamma.app",
+    "description": "A new medium for presenting ideas. Powered by AI.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "productivity",
+      "writing",
+      "marketing"
+    ]
+  },
+  {
+    "name": "Canva",
+    "link": "https://canva.com",
+    "description": "Design for everyone. Now with powerful AI magic.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "image generation",
+      "marketing",
+      "productivity"
+    ]
+  },
+  {
+    "name": "Grammarly",
+    "link": "https://grammarly.com",
+    "description": "Your AI writing partner that helps you find the words you need.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "writing",
+      "productivity"
+    ]
+  },
+  {
+    "name": "Granola",
+    "link": "https://granola.so",
+    "description": "The AI notepad for meetings. Take better notes with less effort.",
+    "pricing_model": "Paid",
+    "categories": [
+      "productivity",
+      "writing"
+    ]
+  },
+  {
     "name": "Synthesia",
     "link": "https://synthesia.io",
     "description": "Create AI videos from text in minutes.",
