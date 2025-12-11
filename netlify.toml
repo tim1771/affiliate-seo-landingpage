@@ -1,4 +1,5 @@
 [build]
+  base = "ai-tools-directory"
   command = "npm run build"
   publish = "out"
 
@@ -12,6 +13,3 @@
   for = "/_next/static/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-
-# Redirects are handled by our /go/[slug]/page.js (Client Side) for this static build.
-# If you wanted server-side redirects, you would add them here manually or via a script.
