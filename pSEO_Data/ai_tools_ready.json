@@ -1,0 +1,305 @@
+[
+  {
+    "name": "ChatGPT",
+    "link": "https://openai.com/chatgpt",
+    "description": "Research, create, and automate tasks with the leader in AI.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "ai chatbots",
+      "research",
+      "ai agents"
+    ],
+    "slug": "chatgpt",
+    "seo_title": "Best ai chatbots Tool in 2025: ChatGPT Review",
+    "primary_category": "ai chatbots",
+    "competitors": [
+      "Claude",
+      "Perplexity",
+      "Google Gemini"
+    ],
+    "verdict": "ChatGPT is a top-tier choice for users looking for ai chatbots, research, ai agents. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Claude",
+    "link": "https://anthropic.com/claude",
+    "description": "Create, analyze, and debug content and code faster.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "ai chatbots",
+      "code assistant",
+      "research"
+    ],
+    "slug": "claude",
+    "seo_title": "Best ai chatbots Tool in 2025: Claude Review",
+    "primary_category": "ai chatbots",
+    "competitors": [
+      "ChatGPT",
+      "Perplexity",
+      "Google Gemini"
+    ],
+    "verdict": "Claude is a top-tier choice for users looking for ai chatbots, code assistant, research. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Midjourney",
+    "link": "https://midjourney.com",
+    "description": "Unlock true digital artistry.",
+    "pricing_model": "Paid",
+    "categories": [
+      "text to image",
+      "image editing",
+      "video generators"
+    ],
+    "slug": "midjourney",
+    "seo_title": "Best text to image Tool in 2025: Midjourney Review",
+    "primary_category": "text to image",
+    "competitors": [
+      "Runway"
+    ],
+    "verdict": "Midjourney is a top-tier choice for users looking for text to image, image editing, video generators. pricing starts at Paid.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Perplexity",
+    "link": "https://perplexity.ai",
+    "description": "Find and summarize trusted web information instantly.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "ai chatbots",
+      "research",
+      "summarizer"
+    ],
+    "slug": "perplexity",
+    "seo_title": "Best ai chatbots Tool in 2025: Perplexity Review",
+    "primary_category": "ai chatbots",
+    "competitors": [
+      "ChatGPT",
+      "Claude",
+      "Google Gemini"
+    ],
+    "verdict": "Perplexity is a top-tier choice for users looking for ai chatbots, research, summarizer. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Google Gemini",
+    "link": "https://gemini.google.com",
+    "description": "Multimodal reasoning across text, images, audio, and video.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "ai chatbots",
+      "writing generators",
+      "code assistant"
+    ],
+    "slug": "google-gemini",
+    "seo_title": "Best ai chatbots Tool in 2025: Google Gemini Review",
+    "primary_category": "ai chatbots",
+    "competitors": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity"
+    ],
+    "verdict": "Google Gemini is a top-tier choice for users looking for ai chatbots, writing generators, code assistant. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Jasper",
+    "link": "https://jasper.ai",
+    "description": "AI copywriter & content generator for teams.",
+    "pricing_model": "Paid",
+    "categories": [
+      "copywriting",
+      "marketing",
+      "blogging"
+    ],
+    "slug": "jasper",
+    "seo_title": "Best copywriting Tool in 2025: Jasper Review",
+    "primary_category": "copywriting",
+    "competitors": [
+      "HeyGen"
+    ],
+    "verdict": "Jasper is a top-tier choice for users looking for copywriting, marketing, blogging. pricing starts at Paid.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Synthesia",
+    "link": "https://synthesia.io",
+    "description": "Create AI videos from text in minutes.",
+    "pricing_model": "Paid",
+    "categories": [
+      "video generation",
+      "avatars",
+      "sales"
+    ],
+    "slug": "synthesia",
+    "seo_title": "Best video generation Tool in 2025: Synthesia Review",
+    "primary_category": "video generation",
+    "competitors": [
+      "HeyGen",
+      "Runway"
+    ],
+    "verdict": "Synthesia is a top-tier choice for users looking for video generation, avatars, sales. pricing starts at Paid.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Notion AI",
+    "link": "https://notion.so",
+    "description": "Access the limitless power of AI, right inside Notion.",
+    "pricing_model": "Paid",
+    "categories": [
+      "productivity",
+      "writing",
+      "summarizer"
+    ],
+    "slug": "notion-ai",
+    "seo_title": "Best productivity Tool in 2025: Notion AI Review",
+    "primary_category": "productivity",
+    "competitors": [
+      "Perplexity",
+      "Gamma",
+      "Otter.ai"
+    ],
+    "verdict": "Notion AI is a top-tier choice for users looking for productivity, writing, summarizer. pricing starts at Paid.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Gamma",
+    "link": "https://gamma.app",
+    "description": "A new medium for presenting ideas.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "presentations",
+      "design",
+      "productivity"
+    ],
+    "slug": "gamma",
+    "seo_title": "Best presentations Tool in 2025: Gamma Review",
+    "primary_category": "presentations",
+    "competitors": [
+      "Notion AI",
+      "Otter.ai",
+      "Beautiful.ai"
+    ],
+    "verdict": "Gamma is a top-tier choice for users looking for presentations, design, productivity. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Otter.ai",
+    "link": "https://otter.ai",
+    "description": "AI meeting assistant that records audio and writes notes.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "transcription",
+      "meetings",
+      "productivity"
+    ],
+    "slug": "otter-ai",
+    "seo_title": "Best transcription Tool in 2025: Otter.ai Review",
+    "primary_category": "transcription",
+    "competitors": [
+      "Notion AI",
+      "Gamma"
+    ],
+    "verdict": "Otter.ai is a top-tier choice for users looking for transcription, meetings, productivity. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "HeyGen",
+    "link": "https://heygen.com",
+    "description": "Produce studio-quality AI videos with custom avatars and voice cloning.",
+    "pricing_model": "Paid",
+    "categories": [
+      "video generation",
+      "avatars",
+      "marketing"
+    ],
+    "slug": "heygen",
+    "seo_title": "Best video generation Tool in 2025: HeyGen Review",
+    "primary_category": "video generation",
+    "competitors": [
+      "Jasper",
+      "Synthesia",
+      "Runway"
+    ],
+    "verdict": "HeyGen is a top-tier choice for users looking for video generation, avatars, marketing. pricing starts at Paid.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Runway",
+    "link": "https://runwayml.com",
+    "description": "Advanced video editing and generation tools for creative professionals.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "video generation",
+      "vfx",
+      "image editing"
+    ],
+    "slug": "runway",
+    "seo_title": "Best video generation Tool in 2025: Runway Review",
+    "primary_category": "video generation",
+    "competitors": [
+      "Midjourney",
+      "Synthesia",
+      "HeyGen"
+    ],
+    "verdict": "Runway is a top-tier choice for users looking for video generation, vfx, image editing. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "ElevenLabs",
+    "link": "https://elevenlabs.io",
+    "description": "The most realistic text-to-speech and voice cloning AI.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "text to speech",
+      "voice cloning",
+      "audio"
+    ],
+    "slug": "elevenlabs",
+    "seo_title": "Best text to speech Tool in 2025: ElevenLabs Review",
+    "primary_category": "text to speech",
+    "competitors": [
+      "Suno"
+    ],
+    "verdict": "ElevenLabs is a top-tier choice for users looking for text to speech, voice cloning, audio. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Suno",
+    "link": "https://suno.ai",
+    "description": "Generate full songs with lyrics and vocals from a simple text prompt.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "music generation",
+      "audio",
+      "creative"
+    ],
+    "slug": "suno",
+    "seo_title": "Best music generation Tool in 2025: Suno Review",
+    "primary_category": "music generation",
+    "competitors": [
+      "ElevenLabs"
+    ],
+    "verdict": "Suno is a top-tier choice for users looking for music generation, audio, creative. pricing starts at Freemium.",
+    "last_updated": "2025-12-08"
+  },
+  {
+    "name": "Beautiful.ai",
+    "link": "https://beautiful.ai",
+    "description": "Generative AI presentation software for workplace teams.",
+    "pricing_model": "Paid",
+    "categories": [
+      "presentations",
+      "design",
+      "business"
+    ],
+    "slug": "beautiful-ai",
+    "seo_title": "Best presentations Tool in 2025: Beautiful.ai Review",
+    "primary_category": "presentations",
+    "competitors": [
+      "Gamma"
+    ],
+    "verdict": "Beautiful.ai is a top-tier choice for users looking for presentations, design, business. pricing starts at Paid.",
+    "last_updated": "2025-12-08"
+  }
+]

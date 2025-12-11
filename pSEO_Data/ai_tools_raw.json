@@ -1,0 +1,167 @@
+[
+    {
+        "name": "ChatGPT",
+        "link": "https://openai.com/chatgpt",
+        "description": "Research, create, and automate tasks with the leader in AI.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "research",
+            "ai agents"
+        ]
+    },
+    {
+        "name": "Claude",
+        "link": "https://anthropic.com/claude",
+        "description": "Create, analyze, and debug content and code faster.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "code assistant",
+            "research"
+        ]
+    },
+    {
+        "name": "Midjourney",
+        "link": "https://midjourney.com",
+        "description": "Unlock true digital artistry.",
+        "pricing_model": "Paid",
+        "categories": [
+            "text to image",
+            "image editing",
+            "video generators"
+        ]
+    },
+    {
+        "name": "Perplexity",
+        "link": "https://perplexity.ai",
+        "description": "Find and summarize trusted web information instantly.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "research",
+            "summarizer"
+        ]
+    },
+    {
+        "name": "Google Gemini",
+        "link": "https://gemini.google.com",
+        "description": "Multimodal reasoning across text, images, audio, and video.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "writing generators",
+            "code assistant"
+        ]
+    },
+    {
+        "name": "Jasper",
+        "link": "https://jasper.ai",
+        "description": "AI copywriter & content generator for teams.",
+        "pricing_model": "Paid",
+        "categories": [
+            "copywriting",
+            "marketing",
+            "blogging"
+        ]
+    },
+    {
+        "name": "Synthesia",
+        "link": "https://synthesia.io",
+        "description": "Create AI videos from text in minutes.",
+        "pricing_model": "Paid",
+        "categories": [
+            "video generation",
+            "avatars",
+            "sales"
+        ]
+    },
+    {
+        "name": "Notion AI",
+        "link": "https://notion.so",
+        "description": "Access the limitless power of AI, right inside Notion.",
+        "pricing_model": "Paid",
+        "categories": [
+            "productivity",
+            "writing",
+            "summarizer"
+        ]
+    },
+    {
+        "name": "Gamma",
+        "link": "https://gamma.app",
+        "description": "A new medium for presenting ideas.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "presentations",
+            "design",
+            "productivity"
+        ]
+    },
+    {
+        "name": "Otter.ai",
+        "link": "https://otter.ai",
+        "description": "AI meeting assistant that records audio and writes notes.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "transcription",
+            "meetings",
+            "productivity"
+        ]
+    },
+    {
+        "name": "HeyGen",
+        "link": "https://heygen.com",
+        "description": "Produce studio-quality AI videos with custom avatars and voice cloning.",
+        "pricing_model": "Paid",
+        "categories": [
+            "video generation",
+            "avatars",
+            "marketing"
+        ]
+    },
+    {
+        "name": "Runway",
+        "link": "https://runwayml.com",
+        "description": "Advanced video editing and generation tools for creative professionals.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "video generation",
+            "vfx",
+            "image editing"
+        ]
+    },
+    {
+        "name": "ElevenLabs",
+        "link": "https://elevenlabs.io",
+        "description": "The most realistic text-to-speech and voice cloning AI.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "text to speech",
+            "voice cloning",
+            "audio"
+        ]
+    },
+    {
+        "name": "Suno",
+        "link": "https://suno.ai",
+        "description": "Generate full songs with lyrics and vocals from a simple text prompt.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "music generation",
+            "audio",
+            "creative"
+        ]
+    },
+    {
+        "name": "Beautiful.ai",
+        "link": "https://beautiful.ai",
+        "description": "Generative AI presentation software for workplace teams.",
+        "pricing_model": "Paid",
+        "categories": [
+            "presentations",
+            "design",
+            "business"
+        ]
+    }
+]

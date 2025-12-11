@@ -1,0 +1,198 @@
+[
+    {
+        "name": "ChatGPT",
+        "link": "https://www.futurepedia.io/tool/chatgpt",
+        "description": "Research, create, and automate tasks with the leader in AI.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "research",
+            "ai agents"
+        ],
+        "slug": "chatgpt",
+        "seo_title": "Best ai chatbots Tool in 2025: ChatGPT Review",
+        "primary_category": "ai chatbots",
+        "competitors": [
+            "Claude",
+            "Perplexity",
+            "Google Gemini"
+        ],
+        "verdict": "ChatGPT is a top-tier choice for users looking for ai chatbots, research, ai agents. pricing starts at Freemium.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Claude",
+        "link": "https://www.futurepedia.io/tool/claude",
+        "description": "Create, analyze, and debug content and code faster.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "code assistant",
+            "research"
+        ],
+        "slug": "claude",
+        "seo_title": "Best ai chatbots Tool in 2025: Claude Review",
+        "primary_category": "ai chatbots",
+        "competitors": [
+            "ChatGPT",
+            "Perplexity",
+            "Google Gemini"
+        ],
+        "verdict": "Claude is a top-tier choice for users looking for ai chatbots, code assistant, research. pricing starts at Freemium.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Midjourney",
+        "link": "https://www.futurepedia.io/tool/midjourney",
+        "description": "Unlock true digital artistry.",
+        "pricing_model": "Paid",
+        "categories": [
+            "text to image",
+            "image editing",
+            "video generators"
+        ],
+        "slug": "midjourney",
+        "seo_title": "Best text to image Tool in 2025: Midjourney Review",
+        "primary_category": "text to image",
+        "competitors": [],
+        "verdict": "Midjourney is a top-tier choice for users looking for text to image, image editing, video generators. pricing starts at Paid.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Perplexity",
+        "link": "https://www.futurepedia.io/tool/perplexity-ai",
+        "description": "Find and summarize trusted web information instantly.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "research",
+            "summarizer"
+        ],
+        "slug": "perplexity",
+        "seo_title": "Best ai chatbots Tool in 2025: Perplexity Review",
+        "primary_category": "ai chatbots",
+        "competitors": [
+            "ChatGPT",
+            "Claude",
+            "Google Gemini"
+        ],
+        "verdict": "Perplexity is a top-tier choice for users looking for ai chatbots, research, summarizer. pricing starts at Freemium.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Google Gemini",
+        "link": "https://www.futurepedia.io/tool/google-gemini",
+        "description": "Multimodal reasoning across text, images, audio, and video.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "ai chatbots",
+            "writing generators",
+            "code assistant"
+        ],
+        "slug": "google-gemini",
+        "seo_title": "Best ai chatbots Tool in 2025: Google Gemini Review",
+        "primary_category": "ai chatbots",
+        "competitors": [
+            "ChatGPT",
+            "Claude",
+            "Perplexity"
+        ],
+        "verdict": "Google Gemini is a top-tier choice for users looking for ai chatbots, writing generators, code assistant. pricing starts at Freemium.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Jasper",
+        "link": "https://www.futurepedia.io/tool/jasper",
+        "description": "AI copywriter & content generator for teams.",
+        "pricing_model": "Paid",
+        "categories": [
+            "copywriting",
+            "marketing",
+            "blogging"
+        ],
+        "slug": "jasper",
+        "seo_title": "Best copywriting Tool in 2025: Jasper Review",
+        "primary_category": "copywriting",
+        "competitors": [],
+        "verdict": "Jasper is a top-tier choice for users looking for copywriting, marketing, blogging. pricing starts at Paid.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Synthesia",
+        "link": "https://www.futurepedia.io/tool/synthesia",
+        "description": "Create AI videos from text in minutes.",
+        "pricing_model": "Paid",
+        "categories": [
+            "video generation",
+            "avatars",
+            "sales"
+        ],
+        "slug": "synthesia",
+        "seo_title": "Best video generation Tool in 2025: Synthesia Review",
+        "primary_category": "video generation",
+        "competitors": [],
+        "verdict": "Synthesia is a top-tier choice for users looking for video generation, avatars, sales. pricing starts at Paid.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Notion UI",
+        "link": "https://www.futurepedia.io/tool/notion-ai",
+        "description": "Access the limitless power of AI, right inside Notion.",
+        "pricing_model": "Paid",
+        "categories": [
+            "productivity",
+            "writing",
+            "summarizer"
+        ],
+        "slug": "notion-ui",
+        "seo_title": "Best productivity Tool in 2025: Notion UI Review",
+        "primary_category": "productivity",
+        "competitors": [
+            "Perplexity",
+            "Gamma",
+            "Otter.ai"
+        ],
+        "verdict": "Notion UI is a top-tier choice for users looking for productivity, writing, summarizer. pricing starts at Paid.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Gamma",
+        "link": "https://www.futurepedia.io/tool/gamma",
+        "description": "A new medium for presenting ideas.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "presentations",
+            "design",
+            "productivity"
+        ],
+        "slug": "gamma",
+        "seo_title": "Best presentations Tool in 2025: Gamma Review",
+        "primary_category": "presentations",
+        "competitors": [
+            "Notion UI",
+            "Otter.ai"
+        ],
+        "verdict": "Gamma is a top-tier choice for users looking for presentations, design, productivity. pricing starts at Freemium.",
+        "last_updated": "2025-12-08"
+    },
+    {
+        "name": "Otter.ai",
+        "link": "https://www.futurepedia.io/tool/otter-ai",
+        "description": "AI meeting assistant that records audio and writes notes.",
+        "pricing_model": "Freemium",
+        "categories": [
+            "transcription",
+            "meetings",
+            "productivity"
+        ],
+        "slug": "otter-ai",
+        "seo_title": "Best transcription Tool in 2025: Otter.ai Review",
+        "primary_category": "transcription",
+        "competitors": [
+            "Notion UI",
+            "Gamma"
+        ],
+        "verdict": "Otter.ai is a top-tier choice for users looking for transcription, meetings, productivity. pricing starts at Freemium.",
+        "last_updated": "2025-12-08"
+    }
+]
