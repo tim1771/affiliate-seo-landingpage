@@ -49,7 +49,7 @@ export default function Home() {
 
       <main>
         <div className="hero" style={{ padding: '4rem 0' }}>
-          <h1>Find the Best AI Tools in 2025</h1>
+          <h1>Find the Best AI Tools in 2026</h1>
           <p style={{ color: '#a3a3a3' }}>Curated directory of the top artificial intelligence software.</p>
 
           {/* Search & Filter UI */}

@@ -10,8 +10,8 @@ const enhancedData = rawData.map(tool => {
     const primaryCategory = tool.categories[0] || "General AI";
 
     // 3. Generate "Mad Libs" Title
-    // Format: "Best [Category] Tool for [Target Audience] in 2025"
-    const title = `Best ${primaryCategory} Tool in 2025: ${tool.name} Review`;
+    // Format: "Best [Category] Tool for [Target Audience] in 2026"
+    const title = `Best ${primaryCategory} Tool in 2026: ${tool.name} Review`;
 
     // 4. Generate "vs" Competitors (Mock logic for demo)
     // Real world: You'd use an vector embedding to find nearest neighbors
@@ -46,7 +46,7 @@ enhancedData.forEach((toolA, index) => {
                 toolA: toolA.slug,
                 toolB: toolB.slug,
                 shared_categories: sharedCats,
-                title: `${toolA.name} vs ${toolB.name}: Which AI Tool is Better in 2025?`
+                title: `${toolA.name} vs ${toolB.name}: Which AI Tool is Better in 2026?`
             });
         }
     });
