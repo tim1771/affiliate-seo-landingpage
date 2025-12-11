@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "AI Tools Directory - Find the Best AI Software",
-  description: "Compare and discover the top AI tools for productivity, marketing, and coding.",
+  title: "AI Tools Directory 2026 - Find & Compare Best AI Software",
+  description: "Discover the best AI tools of 2026. Compare top software for writing, coding, marketing, and automation. Read unbiased reviews and find the perfect AI solution.",
 };
 
 export default function RootLayout({ children }) {

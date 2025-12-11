@@ -41,6 +41,22 @@ export default function Home() {
   return (
     <div className="container">
       <header>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "AI Tools Directory 2026",
+              "url": "https://aitools2026.netlify.app",
+              "description": "The most comprehensive directory of Artificial Intelligence software and tools.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "AI Directory"
+              }
+            })
+          }}
+        />
         <div className="nav">
           <div className="logo">AI Directory</div>
           <a href="#" className="btn icon-btn" style={{ background: '#262626' }}>Subscribe</a>
@@ -149,10 +165,38 @@ export default function Home() {
             </button>
           </div>
         )}
+        {/* Rich SEO Content Section */}
+        <div style={{ marginTop: '5rem', padding: '3rem 0', borderTop: '1px solid #262626' }}>
+          <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Why Use Our AI Tools Directory?</h2>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+            <div>
+              <h3 style={{ fontSize: '1.2rem', color: 'white', marginBottom: '0.5rem' }}>🚀 Curated Selection</h3>
+              <p style={{ color: '#a3a3a3' }}>We evaluate hundreds of AI applications effectively, filtering out the noise to bring you only the most capable tools for your workflow.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.2rem', color: 'white', marginBottom: '0.5rem' }}>⚖️ Unbiased Comparisons</h3>
+              <p style={{ color: '#a3a3a3' }}>Our "Versus" engine automatically generates head-to-head comparisons (e.g., ChatGPT vs Claude), helping you decide based on features, pricing, and specific use cases.</p>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.2rem', color: 'white', marginBottom: '0.5rem' }}>💰 Best Deals</h3>
+              <p style={{ color: '#a3a3a3' }}>We track pricing models (Free, Freemium, Paid) and special offers to ensure you get the best ROI on your software investment.</p>
+            </div>
+          </div>
+
+          <div style={{ marginTop: '3rem' }}>
+            <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>How We Evaluate Tools</h3>
+            <p style={{ color: '#a3a3a3', lineHeight: '1.6' }}>
+              Our ranking methodology considers three core factors: <strong>Output Quality</strong>, <strong>Ease of Use</strong>, and <strong>Value for Money</strong>.
+              Whether you are looking for <em>image generation</em>, <em>coding assistants</em>, or <em>marketing automation</em>, our directory is updated weekly to reflect the fast-paced nature of the AI industry.
+            </p>
+          </div>
+        </div>
+
       </main>
 
       <footer style={{ padding: '2rem 0', textAlign: 'center', color: '#666', borderTop: '1px solid #262626' }}>
-        <p>© 2025 AI Directory. Discalimer: We may earn affiliate commissions from links on this page.</p>
+        <p>© 2026 AI Directory. Disclaimer: We may earn affiliate commissions from links on this page.</p>
       </footer>
     </div>
   );

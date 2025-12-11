@@ -11,8 +11,13 @@ const CATEGORY_KEYWORDS = {
     'audio': ['voice', 'speech', 'music', 'sound', 'podcast', 'audio'],
     'coding': ['code', 'programming', 'developer', 'sql', 'python', 'css'],
     'chatbot': ['chat', 'bot', 'conversation', 'assistant', 'gpt'],
-    'productivity': ['productivity', 'workflow', 'automate', 'task', 'notion', 'sheet'],
-    'marketing': ['marketing', 'ad', 'seo', 'social media', 'email', 'sales']
+    'productivity': ['productivity', 'workflow', 'task', 'notion', 'sheet'],
+    'marketing': ['marketing', 'ad', 'seo', 'social media', 'email', 'sales'],
+    'automation': ['automate', 'automation', 'workflow', 'integrate', 'agent'],
+    'design': ['design', 'ui', 'ux', 'graphic', 'logo', 'template'],
+    'research': ['research', 'analysis', 'data', 'academic', 'paper'],
+    'analytics': ['analytics', 'metrics', 'tracking', 'insight'],
+    'customer service': ['support', 'customer', 'service', 'crm', 'help desk']
 };
 
 function determineCategories(description) {

@@ -123,6 +123,22 @@ export default async function ToolPage({ params }) {
                             </tr>
                         </tbody>
                     </table>
+
+                    {/* Similar Tools Links */}
+                    <div style={{ marginTop: '2rem' }}>
+                        <h3>Explore Similar AI Tools</h3>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
+                            {data.tools
+                                .filter(t => tool.competitors.includes(t.name) || (t.primary_category === tool.primary_category && t.slug !== tool.slug))
+                                .slice(0, 6)
+                                .map(similar => (
+                                    <Link key={similar.slug} href={`/${similar.slug}`} className="tag" style={{ textDecoration: 'none', border: '1px solid #333' }}>
+                                        {similar.name}
+                                    </Link>
+                                ))
+                            }
+                        </div>
+                    </div>
                 </section>
 
                 <section className="section" style={{ background: '#171717', padding: '3rem', borderRadius: '12px', textAlign: 'center' }}>
