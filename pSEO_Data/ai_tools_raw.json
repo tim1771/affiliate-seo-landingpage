@@ -1,167 +1,4684 @@
 [
-    {
-        "name": "ChatGPT",
-        "link": "https://openai.com/chatgpt",
-        "description": "Research, create, and automate tasks with the leader in AI.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "ai chatbots",
-            "research",
-            "ai agents"
-        ]
-    },
-    {
-        "name": "Claude",
-        "link": "https://anthropic.com/claude",
-        "description": "Create, analyze, and debug content and code faster.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "ai chatbots",
-            "code assistant",
-            "research"
-        ]
-    },
-    {
-        "name": "Midjourney",
-        "link": "https://midjourney.com",
-        "description": "Unlock true digital artistry.",
-        "pricing_model": "Paid",
-        "categories": [
-            "text to image",
-            "image editing",
-            "video generators"
-        ]
-    },
-    {
-        "name": "Perplexity",
-        "link": "https://perplexity.ai",
-        "description": "Find and summarize trusted web information instantly.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "ai chatbots",
-            "research",
-            "summarizer"
-        ]
-    },
-    {
-        "name": "Google Gemini",
-        "link": "https://gemini.google.com",
-        "description": "Multimodal reasoning across text, images, audio, and video.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "ai chatbots",
-            "writing generators",
-            "code assistant"
-        ]
-    },
-    {
-        "name": "Jasper",
-        "link": "https://jasper.ai",
-        "description": "AI copywriter & content generator for teams.",
-        "pricing_model": "Paid",
-        "categories": [
-            "copywriting",
-            "marketing",
-            "blogging"
-        ]
-    },
-    {
-        "name": "Synthesia",
-        "link": "https://synthesia.io",
-        "description": "Create AI videos from text in minutes.",
-        "pricing_model": "Paid",
-        "categories": [
-            "video generation",
-            "avatars",
-            "sales"
-        ]
-    },
-    {
-        "name": "Notion AI",
-        "link": "https://notion.so",
-        "description": "Access the limitless power of AI, right inside Notion.",
-        "pricing_model": "Paid",
-        "categories": [
-            "productivity",
-            "writing",
-            "summarizer"
-        ]
-    },
-    {
-        "name": "Gamma",
-        "link": "https://gamma.app",
-        "description": "A new medium for presenting ideas.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "presentations",
-            "design",
-            "productivity"
-        ]
-    },
-    {
-        "name": "Otter.ai",
-        "link": "https://otter.ai",
-        "description": "AI meeting assistant that records audio and writes notes.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "transcription",
-            "meetings",
-            "productivity"
-        ]
-    },
-    {
-        "name": "HeyGen",
-        "link": "https://heygen.com",
-        "description": "Produce studio-quality AI videos with custom avatars and voice cloning.",
-        "pricing_model": "Paid",
-        "categories": [
-            "video generation",
-            "avatars",
-            "marketing"
-        ]
-    },
-    {
-        "name": "Runway",
-        "link": "https://runwayml.com",
-        "description": "Advanced video editing and generation tools for creative professionals.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "video generation",
-            "vfx",
-            "image editing"
-        ]
-    },
-    {
-        "name": "ElevenLabs",
-        "link": "https://elevenlabs.io",
-        "description": "The most realistic text-to-speech and voice cloning AI.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "text to speech",
-            "voice cloning",
-            "audio"
-        ]
-    },
-    {
-        "name": "Suno",
-        "link": "https://suno.ai",
-        "description": "Generate full songs with lyrics and vocals from a simple text prompt.",
-        "pricing_model": "Freemium",
-        "categories": [
-            "music generation",
-            "audio",
-            "creative"
-        ]
-    },
-    {
-        "name": "Beautiful.ai",
-        "link": "https://beautiful.ai",
-        "description": "Generative AI presentation software for workplace teams.",
-        "pricing_model": "Paid",
-        "categories": [
-            "presentations",
-            "design",
-            "business"
-        ]
-    }
+  {
+    "name": "ChatGPT",
+    "link": "https://openai.com/chatgpt",
+    "description": "Research, create, and automate tasks with the leader in AI.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "chatbot",
+      "writing",
+      "productivity"
+    ]
+  },
+  {
+    "name": "Synthesia",
+    "link": "https://synthesia.io",
+    "description": "Create AI videos from text in minutes.",
+    "pricing_model": "Paid",
+    "categories": [
+      "video generation",
+      "marketing"
+    ]
+  },
+  {
+    "name": "HeyGen",
+    "link": "https://heygen.com",
+    "description": "Produce studio-quality AI videos with custom avatars and voice cloning.",
+    "pricing_model": "Paid",
+    "categories": [
+      "video generation",
+      "marketing"
+    ]
+  },
+  {
+    "name": "Scrip Ai",
+    "link": "https://scripai.com",
+    "description": "Free AI writer for creating viral short video scripts and AI content.",
+    "categories": [
+      "writing",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Quickads",
+    "link": "https://www.quickads.ai/",
+    "description": "AI ad generator for creating image and video ads quickly and efficiently.",
+    "categories": [
+      "image generation",
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Wonderchat",
+    "link": "https://wonderchat.io",
+    "description": "AI Chatbot builder to create custom ChatGPT chatbots from website links or PDFs.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Creatosaurus",
+    "link": "https://www.creatosaurus.io",
+    "description": "All-in-one creative and marketing platform for streamlined workflow and scalable storytelling.",
+    "categories": [
+      "writing",
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Blobr",
+    "link": "https://blobr.io",
+    "description": "AI agents to optimize Google Ads spending 24/7.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pencil",
+    "link": "https://trypencil.com",
+    "description": "AI ad generator for faster ad creation and improved performance.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Freeadcopy Com",
+    "link": "https://freeadcopy.com",
+    "description": "Free AI copy generator using GPT-4 to create high-converting ad copy.",
+    "categories": [
+      "writing",
+      "chatbot",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Marpipe Com",
+    "link": "https://www.marpipe.com/schedule-ec",
+    "description": "Marpipe uses AI to optimize and control Dynamic Product Ads for brands.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Omneky",
+    "link": "https://www.omneky.com",
+    "description": "AI-powered platform to scale and optimize ad campaigns with creative automation and brand management.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kilo Ai",
+    "link": "https://kilocode.ai",
+    "description": "Open-source AI coding assistant for VS Code, enhancing coding efficiency and automation.",
+    "categories": [
+      "coding",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "30characters",
+    "link": "https://30chars.com",
+    "description": "AI-powered Google Ads copy generator for efficient and effective ad creation.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adbot Your Search Ads Specialist",
+    "link": "https://myadbot.com",
+    "description": "Adbot automates and optimizes online advertising campaigns using AI for small businesses.",
+    "categories": [
+      "chatbot",
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Copycop",
+    "link": "https://copycopai.com",
+    "description": "AI tool for generating compliant and high-converting Facebook ad copy.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adinspiration",
+    "link": "https://adinspiration.com",
+    "description": "Ad templates for Meta ads to boost conversions.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Engagexai",
+    "link": "https://engagexai.com/",
+    "description": "EngagexAI automates ad creation with AI for fast, high-quality content generation.",
+    "categories": [
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Suggests",
+    "link": "https://ai-suggests.com/",
+    "description": "AI-powered platform for generating unlimited content and ideas for web creators.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adcopy Ai",
+    "link": "https://adcopy.ai",
+    "description": "AI-powered ad copy and campaign management tools for increased conversions and efficient scaling on Meta.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Creative Score",
+    "link": "https://creativescore.ai",
+    "description": "Creative Score optimizes marketing assets using behavioral science and marketing research.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Write Conch Ai",
+    "link": "https://www.writeconch.ai",
+    "description": "AI writing assistant with essay writing, content rewriting, and AI detection tools.",
+    "categories": [
+      "writing",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Copyflow Pro",
+    "link": "https://www.copyflowpro.com",
+    "description": "AI-powered tool to generate targeted PPC ad copy and improve ad campaign efficiency.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ogilvy",
+    "link": "https://ogilvyapp.com",
+    "description": "AI-powered text editor to boost conversion sales and improve copywriting.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Salesboosta Com",
+    "link": "https://salesboosta.com",
+    "description": "AI copywriting tool for generating sales-focused content quickly in 106+ languages.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ezra Ads",
+    "link": "https://www.heyezra.co",
+    "description": "AI platform generating high-quality static Meta ad creatives fast.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ecomadpro",
+    "link": "https://Ecomadpro.com",
+    "description": "EcomAdPro creates high-converting video ads for e-commerce on platforms like TikTok and Meta.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pixcanva",
+    "link": "https://www.pixcanva.com",
+    "description": "PixCanva AI generates QR codes, realistic images, removes backgrounds, and offers face swap.",
+    "categories": [
+      "image generation",
+      "coding"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Copywritergpt Io",
+    "link": "https://www.copywritergpt.io",
+    "description": "AI-powered copywriting tool for creating compelling marketing and promotional content.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Azameo Fr",
+    "link": "https://azameo.fr",
+    "description": "AI-driven ad platform for creating and managing high-converting ad campaigns.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Wordcopyai",
+    "link": "https://www.wordcopyai.com",
+    "description": "AI-powered copywriting app for iOS to automate ad copy creation and drive conversions.",
+    "categories": [
+      "writing",
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adgeneratorpro",
+    "link": "https://adgenerator.pro",
+    "description": "AI-powered solution to generate Google Ads copy quickly.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Macbeth Ai",
+    "link": "https://macbeth.ai/",
+    "description": "Macbeth AI is an AI assistant for generating high-quality content, code, and images.",
+    "categories": [
+      "image generation",
+      "coding",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adcopy",
+    "link": "https://www.adcopy.online",
+    "description": "Unlimited copywriting and marketing service with expert writers and flexible pricing.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Isavantai",
+    "link": "https://isavant.ai/",
+    "description": "AI writing assistant for content, transcription, and text-to-speech.",
+    "categories": [
+      "writing",
+      "audio",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Write Like A Pro",
+    "link": "https://aicopymastery.com",
+    "description": "A guide to improve copywriting skills using ChatGPT for effective and engaging content.",
+    "categories": [
+      "writing",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Unbound",
+    "link": "http://unboundcontent.ai/",
+    "description": "AI-powered platform for automated content creation and AI assistance.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Powered By Agency",
+    "link": "https://poweredby.agency",
+    "description": "Custom AI agent solutions for SMBs, specializing in automation across multiple channels.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Luma Ai",
+    "link": "https://lumalabs.ai",
+    "description": "Luma AI: Capture the world in lifelike 3D with photorealistic detail.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Planner 5d",
+    "link": "https://planner5d.com/ai",
+    "description": "A 3D home design tool using AI to convert 2D plans into 3D models.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Tripo Ai",
+    "link": "https://www.tripo3d.ai",
+    "description": "AI-powered 3D model generator from images and text.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Meshy",
+    "link": "https://app.meshy.ai",
+    "description": "Meshy is an AI-powered platform for creating 3D assets from text and images quickly and easily.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Iconscout",
+    "link": "https://iconscout.com",
+    "description": "Design asset marketplace with 11.1M+ icons, illustrations, 3D assets, and Lottie animations.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Stable Diffusion",
+    "link": "https://stability.ai",
+    "description": "Stability AI develops open-source AI models for image, video, 3D, and audio generation.",
+    "categories": [
+      "image generation",
+      "video generation",
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Rodin",
+    "link": "https://hyper3d.ai",
+    "description": "AI-powered platform for 3D model and asset generation with various tools and features.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Spline",
+    "link": "http://spline.design",
+    "description": "Free 3D design tool for creating interactive web experiences with real-time collaboration.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Canny Autopilot",
+    "link": "https://canny.io/features/autopilot",
+    "description": "Customer feedback management software to collect, analyze, and prioritize feature requests.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Runcomfy",
+    "link": "https://www.runcomfy.com",
+    "description": "Cloud-based ComfyUI platform for AI art creation with fast GPUs and easy workflows.",
+    "categories": [
+      "image generation",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Cgdream Ai",
+    "link": "https://cgdream.ai",
+    "description": "Free AI image generator with 2D/3D model support and customization options.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Vizcom",
+    "link": "https://www.vizcom.ai",
+    "description": "AI-powered creative tool for designers to transform sketches into renders and 3D models.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pixcap 3d Illustration Pack",
+    "link": "https://pixcap.com",
+    "description": "Online marketplace and editor for editable animated 3D assets.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pixcap 3d Animated Icons",
+    "link": "https://pixcap.com",
+    "description": "Pixcap: Customizable animated 3D assets for UX/UI, landing pages, and graphic design.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "3d Ai Studio",
+    "link": "https://3daistudio.lemonsqueezy.com",
+    "description": "AI-powered platform for generating 3D assets from text or images in seconds.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Customuse Com",
+    "link": "https://customuse.com",
+    "description": "Platform for creating, sharing, and exploring custom 3D clothing designs.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Rosebud",
+    "link": "https://www.rosebud.ai",
+    "description": "Rosebud AI: Create 3D games and worlds with vibe coding, no coding required.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pageon Ai",
+    "link": "https://www.pageon.ai",
+    "description": "AI-powered presentation tool for creating engaging and influential media content.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Alpha3d Io",
+    "link": "https://alpha3d.io",
+    "description": "AI platform to transform text and 2D images into 3D assets.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Sloyd",
+    "link": "https://www.sloyd.ai",
+    "description": "3D modeling platform with AI-powered generators and customization.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Csm",
+    "link": "https://csm.ai",
+    "description": "CSM provides AI tools to generate controllable 3D worlds from images, text, and sketches.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Avaturn Me",
+    "link": "https://avaturn.me",
+    "description": "AI-powered platform for creating realistic and customizable 3D avatars from 2D photos.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kaedim",
+    "link": "https://www.kaedim3d.com",
+    "description": "AI-powered platform converting 2D images to 3D models for game development and more.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Modelslab Ai",
+    "link": "https://modelslab.com",
+    "description": "Developer-first API platform for AI and machine learning models.",
+    "categories": [
+      "coding"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ludo Ai",
+    "link": "https://ludo.ai",
+    "description": "AI-powered platform for game research, design, and development.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Opus",
+    "link": "https://opus.ai",
+    "description": "Opus is a 3D creator platform that generates text-to-video.",
+    "categories": [
+      "writing",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Backflip Ai",
+    "link": "https://backflip.ai",
+    "description": "Backflip AI offers 3D AI tools to accelerate CAD and 3D modeling workflows.",
+    "categories": [
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Aihouse Com",
+    "link": "https://aihouse.com",
+    "description": "AI-powered 3D interior design and manufacturing software for streamlined workflows and photorealistic visuals.",
+    "categories": [
+      "image generation",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Aihouse",
+    "link": "https://www.aihouse.com",
+    "description": "AI-powered 3D interior design and manufacturing software.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mappedin Com",
+    "link": "https://mappedin.com",
+    "description": "Mappedin is an indoor mapping platform with AI tools for creating and sharing maps.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Leiapix Ai",
+    "link": "https://leiapix-ai.com",
+    "description": "Converts 2D images into 3D Lightfield images and animations using AI.",
+    "categories": [
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Synthesis Ai",
+    "link": "https://synthesis.ai",
+    "description": "Synthetic data for computer vision and perception AI across various industries.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Getfloorplan",
+    "link": "https://getfloorplan.com",
+    "description": "AI-powered service converting 2D floor plans into 3D layouts with virtual tours.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Arcadium",
+    "link": "https://arcadium3D.com",
+    "description": "AI-powered online 3D house design tool for floor plans and interior design.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Avatar One",
+    "link": "https://www.avatar.one/",
+    "description": "Create and interact with custom AI girlfriends in 3D, with options to earn.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Seapik Ai",
+    "link": "https://seapik.com",
+    "description": "AI writing tool and text generator for creating various content types quickly.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Radical",
+    "link": "https://www.radicalmotion.com",
+    "description": "AI-powered motion capture and 3D scene design platform.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Masterpiece X Generate",
+    "link": "https://www.masterpiecex.com",
+    "description": "AI-powered platform for generating 3D models from text or images.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Styldod",
+    "link": "https://styldod.refr.cc/toolify",
+    "description": "Styldod simplifies real estate marketing with virtual staging, photo editing, and AI tools.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Photogenius Ai",
+    "link": "https://photogenius.ai",
+    "description": "AI-powered platform for creating stunning visuals quickly and easily.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Scout By Asseter Ai",
+    "link": "https://scout.asseter.ai/",
+    "description": "AI-powered CG asset management and 3D model search engine.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Face Studio",
+    "link": "https://aiface.studio",
+    "description": "AI Face Studio: AI-driven face transformations and editing tools for creative projects.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Trellis 3d Ai",
+    "link": "https://trellis3d.co",
+    "description": "Free AI tool to convert images into professional 3D assets.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "3daily",
+    "link": "https://3daily.ai",
+    "description": "AI-powered platform for 3D model generation, asset management, and distribution.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Charmed Ai Texture Generator",
+    "link": "https://charmed.ai",
+    "description": "An AI-powered 3D art toolkit shutting down in 2025.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Masterpiece Studio",
+    "link": "https://masterpiecestudio.com",
+    "description": "VR 3D creative suite simplifying 3D creation with generative AI for indie creators.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Laprompt",
+    "link": "https://laprompt.com",
+    "description": "AI art gallery and prompt marketplace for generating and trading AI prompts.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "3dlogoai",
+    "link": "https://www.3dlogoai.com",
+    "description": "AI-powered logo generator for creating 3D or 2D logos quickly and affordably.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Blueberry Ai",
+    "link": "https://www.blueberry-ai.com",
+    "description": "AI-powered digital asset management for 3D assets and design files.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Genie 2",
+    "link": "https://playgenieai.com",
+    "description": "AI game generator by Google DeepMind for creating and playing infinite 3D game worlds.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Brickcenter",
+    "link": "https://www.brickcenter.net",
+    "description": "AI-powered platform for creating custom Lego sets and minifigures from text and images.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Magiscan Ai 3d Scanner App",
+    "link": "https://magiscan.app",
+    "description": "AI-powered 3D scanning app for creating 3D models from real-world objects.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Opalai Scanto3d",
+    "link": "https://www.opal-ai.com",
+    "description": "Spatial AI tools for 3D CAD, BIM, and data analysis.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "123kanfang Com",
+    "link": "https://123kanfang.com",
+    "description": "VR viewing and virtual home decoration technology provider.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Zolak",
+    "link": "https://zolak.tech",
+    "description": "3D product visualization software for furniture retailers using AI and computer vision.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Gnucleus Ai",
+    "link": "https://www.gnucleus.ai",
+    "description": "gNucleus generates 3D CAD models from text and images using GenAI, speeding up modeling.",
+    "categories": [
+      "writing",
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Drawings Alive",
+    "link": "https://drawingsalive.com",
+    "description": "AI app that transforms kids' drawings into vibrant artworks and animated videos.",
+    "categories": [
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Instant3d Ai",
+    "link": "https://instant3d.ai",
+    "description": "AI platform for instant 3D modeling from images and text.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pixelvibe Com",
+    "link": "https://pixelvibe.com",
+    "description": "AI tool to generate 2D and 3D game assets and game code.",
+    "categories": [
+      "coding"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Lumiere 3d Ai",
+    "link": "https://www.lumiere3d.ai",
+    "description": "AI platform for creating cinematic 3D product videos for e-commerce and marketing.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Voge",
+    "link": "https://metabrixlab.com",
+    "description": "Gen-AI powered 3D character creation platform for various industries.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Sketchpro Ai",
+    "link": "https://sketchpro.ai",
+    "description": "AI design assistant for architecture and design, generating sketches from images and text.",
+    "categories": [
+      "writing",
+      "image generation",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Snapmeasureai",
+    "link": "https://snapmeasureai.com",
+    "description": "AI for accurate 3D body measurements, reducing returns and ensuring perfect fit.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kanai",
+    "link": "https://kanai.ai",
+    "description": "Kanai: 3D room design with AI furniture modeling for confident interior design.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Movmi Ai Powered Motion Capture",
+    "link": "https://movmi.co",
+    "description": "Free motion capture software with AI-powered tools and a store of 3D assets.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Thecela Com",
+    "link": "https://thecela.com",
+    "description": "CELA Technology enhances websites with 3D and AR visualization to boost sales and engagement.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mineflow Yc S24",
+    "link": "http://mineflow.ai",
+    "description": "AI platform for predicting mineral deposit shape and location.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Photog",
+    "link": "https://photog.art",
+    "description": "AI-powered tool for generating marketing visuals and content for e-commerce.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Snowpixel App",
+    "link": "https://snowpixel.app",
+    "description": "Generative media toolkit for creating images, videos, music, and 3D objects from text.",
+    "categories": [
+      "writing",
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Glyf 3d Ai Art Generator",
+    "link": "https://glyf.in",
+    "description": "Mobile 3D design and AI art creation tool with extensive resources.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Brick Generator",
+    "link": "https://brickgenerator.com",
+    "description": "Generative AI tool creating Lego designs from text descriptions.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Suapp Ai",
+    "link": "https://suapp.ai",
+    "description": "AI-powered design platform with plugins and web apps for rendering, animation, and modeling.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Gentype Io",
+    "link": "https://gentype.lemonsqueezy.com",
+    "description": "Gentype offers AI-generated, themed 3D alphabets for creative typography.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Copernicai",
+    "link": "https://copernicai.com",
+    "description": "Generative AI for creating 360° panoramas and VR experiences from text prompts.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hyra",
+    "link": "https://www.hyravision.com",
+    "description": "AI-powered spatial reading app for Apple Vision Pro with immersive book environments.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Diverseshot",
+    "link": "https://www.diverseshot.com",
+    "description": "AI toolkit for converting videos to 3D Gaussian splatting files.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Stable Fast 3d Sf3d",
+    "link": "https://www.stablefast3d.com",
+    "description": "Rapid 3D asset generation from single images in 0.5 seconds.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Draw3d",
+    "link": "https://draw3d.lemonsqueezy.com/",
+    "description": "AI tool that converts sketches into photorealistic images.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Heroify",
+    "link": "https://heroify.lol",
+    "description": "AI tool for generating 3D isometric graphics for websites and UIs.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Style3d Ai",
+    "link": "https://www.style3d.ai",
+    "description": "AI-powered platform for fashion design, marketing, and production.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Lovers Ai",
+    "link": "https://www.theloversai.co.in",
+    "description": "AI-powered wedding planning platform with design tools and vendor connections.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Stable Video 3d",
+    "link": "https://stablevideo3d.com",
+    "description": "Stability AI licenses offer flexible generative AI solutions with self-hosting benefits and access to models like SV3D.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Nak3d",
+    "link": "https://nak3d.xyz",
+    "description": "NAK3D: AI-powered platform for 3D digital fashion creation and virtual integration.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Jeeliz Com",
+    "link": "https://jeeliz.com",
+    "description": "Eyewear virtual try-on solution for e-commerce with realistic rendering and easy integration.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Powered 3d Marketplace",
+    "link": "https://marketplace.kaedim3d.com",
+    "description": "AI-powered 3D marketplace with 10K+ assets and on-the-spot 3D generation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Meshcapade Me",
+    "link": "http://meshcapade.me",
+    "description": "Avatar creation platform using AI to generate lifelike digital humans.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Sv3d Online",
+    "link": "https://sv3d.online",
+    "description": "Generative model for high-quality 3D generation from single images with improved view consistency.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mondial3d Ai 3d Model Generator",
+    "link": "https://www.mondial3d.com",
+    "description": "Mondial3D: a 3D design studio and marketplace with plugins for XR & Metaverse.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Triorama Ai",
+    "link": "https://triorama.ai",
+    "description": "Triorama AI provides AI and 3D configurators for eCommerce product personalization.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Psychoroid Com",
+    "link": "https://psychoroid.com",
+    "description": "Open-source AI 3D engine for generating and customizing 3D assets from text and images.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Latent Labs",
+    "link": "https://www.latentlabs.art",
+    "description": "Latent Labs generates 3D worlds from text prompts using Stable Diffusion.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "G3dai Jedi",
+    "link": "https://g3d.ai",
+    "description": "Generative AI platform for game creation using text prompts.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Worlds Beyond",
+    "link": "https://worldsbeyondnft.com",
+    "description": "AI-powered social creator platform for building and monetizing virtual experiences.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kirin",
+    "link": "https://www.kirin3d.com",
+    "description": "AI system that turns text prompts into 3D printed objects.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Imagineai By Magus Gg",
+    "link": "https://magus.gg",
+    "description": "AI tools for generating 3D models, videos, animations, and game scripts.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Character Design By Museclip",
+    "link": "https://museclip.ai/characterRealTime",
+    "description": "AI tool for real-time character design and customization from 3D models.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Trulience Com",
+    "link": "https://trulience.com",
+    "description": "Platform for creating interactive avatars powered by conversational AI.",
+    "categories": [
+      "image generation",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Atlas 3d Ai",
+    "link": "https://atlas.design",
+    "description": "AI-powered 3D model generation from images and text for asset and virtual world creation.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Wordcraft3d",
+    "link": "https://app.wordcraft3d.greenrobot.com",
+    "description": "Generates 3D models from text and provides downloadable files for various uses.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Idjpg Com",
+    "link": "https://idjpg.com",
+    "description": "AI photo transformation and old photo restoration platform.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Imrsivo",
+    "link": "https://imrsivo.com",
+    "description": "No-code platform for creating interactive, immersive web content with Generative AI.",
+    "categories": [
+      "coding"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Konfiwear",
+    "link": "https://konfiwear.com",
+    "description": "Apparel customization software with 3D design and e-commerce integration.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Izanamiai",
+    "link": "https://izanami.ai",
+    "description": "IzanamiAI generates 3D assets and virtual worlds using AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Birble Ai Dashboard",
+    "link": "https://BirbleAI.com",
+    "description": "Birble AI is a cloud platform for AI services, media creation, business tools, and Web3 innovation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Censored Ai",
+    "link": "https://censoredai.app",
+    "description": "AI generator for creating custom artwork in various styles.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Masterpiecevr Com",
+    "link": "https://masterpiecevr.com",
+    "description": "VR 3D creative suite for indie creators using generative AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Xspiral",
+    "link": "https://www.xspiral.com",
+    "description": "Online 3D visualization tool with 2D/3D design and AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "2frames App",
+    "link": "https://2frames.app",
+    "description": "Create stylized product shoots with AI backgrounds.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Guekn",
+    "link": "https://guekn.com",
+    "description": "AI image generator for creating stunning and custom images.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Neural4d",
+    "link": "https://www.neural4d.com",
+    "description": "AI-powered platform for generating 3D models from text and images.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Textto3d",
+    "link": "https://text-to-3d.app",
+    "description": "TextTo3D converts text into 2D images and 3D models instantly.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Showbiz Ai",
+    "link": "https://showbizai.com",
+    "description": "AI-powered text-to-animation software for simplified 3D content creation.",
+    "categories": [
+      "writing",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Oven Ai",
+    "link": "https://oveners.com",
+    "description": "Oven AI: Create unique 3D icons with AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Imagerest All In One Al Image Platform",
+    "link": "https://imagerest.com",
+    "description": "AI-powered image transformation: generate visuals, enhance images, extract frames, digitize text, create 3D models.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pristina Ai Render Realism Fast",
+    "link": "https://www.pristina.ai",
+    "description": "Pristina.ai enhances 3D renders with AI, streamlining workflows in Blender and 3ds Max.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Sheliapp",
+    "link": "https://www.sheli.app",
+    "description": "SheliApp: Virtual pet care with GameFi and education, powered by blockchain.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Arrival",
+    "link": "https://arrival.so",
+    "description": "Arrival is a cloud-based SaaS solution for creating 3D virtual spaces with AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Dimensionlabs",
+    "link": "https://dimensionlabs.app",
+    "description": "AI platform that converts text into 3D models.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Vaivr",
+    "link": "https://vaivr.ai",
+    "description": "VAIVR provides virtual fitting technology for online shoppers using 3D video.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hunyuan3d 2 0",
+    "link": "https://3d-models.hunyuan.tencent.com",
+    "description": "Open-source 3D asset generation model by Tencent.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Meshifai",
+    "link": "http://meshifai.com",
+    "description": "MeshifAI transforms text into 3D models using AI for developers and creators.",
+    "categories": [
+      "writing",
+      "coding"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bevelify",
+    "link": "https://bevelify.com",
+    "description": "AI-powered 3D model generator from text or images.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Nom3d Studio",
+    "link": "https://nom3d.studio",
+    "description": "AI-powered platform for 2D to 3D logo conversion and creation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Doll",
+    "link": "https://ai-doll.app",
+    "description": "Generate, Modelize and 3D Print your Own AI Action Figure in One Click",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Visionar Visualize Your Creations",
+    "link": "https://www.visionar.dev",
+    "description": "AI platform transforming 2D images/sketches into pro-grade 3D models quickly.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Altpage Ai",
+    "link": "https://www.altpage.ai",
+    "description": "AI tool for generating competitor alternative pages to capture search traffic.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Thomson Reuters",
+    "link": "https://www.thomsonreuters.com",
+    "description": "Thomson Reuters: Technology solutions and expertise for professionals across various industries.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mathgpt Ai Math Solver Animator",
+    "link": "https://math-gpt.org",
+    "description": "AI math solver and homework helper with video explanations and step-by-step solutions.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Nume",
+    "link": "https://www.nume.finance/",
+    "description": "AI CFO for founders, providing financial insights and automation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Nanonets",
+    "link": "https://nanonets.com",
+    "description": "AI-powered platform for intelligent document processing and workflow automation.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Insightsoftware",
+    "link": "https://insightsoftware.com",
+    "description": "Comprehensive solutions for finance, accounting, and operations, powered by AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Accountable De",
+    "link": "https://accountable.de",
+    "description": "Tax and accounting solution for freelancers with AI support.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Intapp",
+    "link": "https://www.intapp.com",
+    "description": "Intapp: AI-powered software for professional and financial services firms to drive growth and manage risk.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Docuclipper",
+    "link": "https://www.docuclipper.com",
+    "description": "Financial data extraction software automating data from financial documents with high accuracy.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Taxgpt Com",
+    "link": "https://taxgpt.com",
+    "description": "AI tax assistant for accountants and tax professionals, boosting productivity and streamlining operations.",
+    "categories": [
+      "chatbot",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Taxgpt",
+    "link": "https://www.taxgpt.com",
+    "description": "AI-powered tax assistant for individuals, businesses, and tax professionals.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Syft Assist Ai",
+    "link": "https://www.syftanalytics.com",
+    "description": "AI-powered financial reporting platform for data analysis and business performance improvement.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kick",
+    "link": "https://kick.co",
+    "description": "Automated bookkeeping software for entrepreneurs and accountants.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Agree Com",
+    "link": "https://agree.com",
+    "description": "AI-powered platform for contracts, e-signatures, invoicing, and payment processing.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Zeni Ai",
+    "link": "https://zeni.ai",
+    "description": "AI-powered bookkeeping software for startups with real-time financial insights and expert support.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Formx Ai",
+    "link": "https://www.formx.ai",
+    "description": "FormX.ai automates data extraction from documents using AI to improve efficiency and reduce costs.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pump",
+    "link": "https://www.pump.co/",
+    "description": "AI-powered cloud cost optimization tool using group buying to save startups money.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Rossum Ai",
+    "link": "https://rossum.ai",
+    "description": "AI-powered platform automating transactional document workflows for increased efficiency and accuracy.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Tutoreva Campus Ai Study Help",
+    "link": "https://www.tutoreva.com",
+    "description": "AI-powered study tool for homework help and tutoring across college subjects.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Tutoreva",
+    "link": "https://tutoreva.com",
+    "description": "AI homework helper providing 24/7 online support for various subjects.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Affinda Com",
+    "link": "https://affinda.com",
+    "description": "Affinda automates document workflows with AI, extracting data from any document type.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Receiptor Ai",
+    "link": "https://receiptor.ai",
+    "description": "AI-powered receipt extraction and expense management tool.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mindbridge Ai",
+    "link": "https://mindbridge.ai",
+    "description": "MindBridge is a financial risk discovery and anomaly detection platform using AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Yokoy Io",
+    "link": "https://yokoy.io",
+    "description": "AI-powered spend management suite for midsize companies and global enterprises.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Digits Accounting Reimagined",
+    "link": "https://digits.com",
+    "description": "AI-powered accounting platform for startups and small businesses.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Financegpt",
+    "link": "https://financegpt.uk",
+    "description": "AI-powered financial analysis platform with data-driven insights and expert review options.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Clienthub App",
+    "link": "https://clienthub.app",
+    "description": "All-in-one practice management & client portal for accounting firms with AI tools.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Leasecake",
+    "link": "https://www.leasecake.com",
+    "description": "Lease and location management platform for multi-unit tenants.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Osfin Ai",
+    "link": "https://osfin.ai",
+    "description": "Osfin.ai is a fin-ops platform for financial data management and automation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Algodocs",
+    "link": "https://www.algodocs.com",
+    "description": "AI-powered platform for automated data extraction from documents.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Appzen Com",
+    "link": "https://appzen.com",
+    "description": "AppZen offers AI-powered finance automation for accounts payable, expense auditing, and T&E management.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Marcus Your Ai Billing Agent",
+    "link": "https://trymesha.com",
+    "description": "AI Agents for business automation, ad optimization, and accounting.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Uprise Embedded",
+    "link": "https://uprise.us",
+    "description": "Uprise provides embedded financial advisory solutions for SMB platforms.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Finvi Com",
+    "link": "https://finvi.com",
+    "description": "AI-driven workflow platforms for ARM and Healthcare industries, streamlining revenue recovery.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Chargezoom Com",
+    "link": "https://chargezoom.com",
+    "description": "All-in-one payment solution to streamline transactions and boost business efficiency.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Receipt Ai For Startup",
+    "link": "https://receipt-ai.com",
+    "description": "Receipt management tool using AI, text messages, and email for easy expense tracking.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Skwad",
+    "link": "https://skwad.app",
+    "description": "Privacy-focused budgeting app using email alerts for transaction tracking.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Trezy",
+    "link": "https://www.trezy.io",
+    "description": "Trezy is a cash flow management tool for small businesses using AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Arte",
+    "link": "https://www.deferred.com/real-estate-tax-chatbot",
+    "description": "No-fee 1031 exchange intermediary sharing interest earned with clients.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Deferred",
+    "link": "https://www.deferred.com",
+    "description": "No Fee 1031 Qualified Intermediary that shares interest earned on exchange funds.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Cpa Pilot",
+    "link": "https://www.cpapilot.com",
+    "description": "AI assistant for tax professionals automating research, communication, and marketing.",
+    "categories": [
+      "chatbot",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Cradl Ai",
+    "link": "https://www.cradl.ai",
+    "description": "Cradl AI automates document parsing using AI, offering no-code solutions and integrations.",
+    "categories": [
+      "coding",
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Patterns",
+    "link": "https://www.patterns.app",
+    "description": "Financial data automation platform streamlining finance tasks with AI and integrations.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Iota",
+    "link": "https://www.iota.uz/en",
+    "description": "IOTA.UZ: ERP and CRM development for businesses in Uzbekistan.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Quanta",
+    "link": "https://www.usequanta.com",
+    "description": "Real-time accounting service for software businesses with AI automation and expert support.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Monai",
+    "link": "https://get-monai.app",
+    "description": "AI-powered expense tracker with voice input and iCloud storage.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Taxly Ai",
+    "link": "https://taxly.ai",
+    "description": "AI-powered tax assistant simplifying tax filing and management in Australia.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Vuala 1 0",
+    "link": "https://vualapp.com",
+    "description": "Smart invoice management software for SMEs, automating invoice extraction and uploading.",
+    "categories": [
+      "image generation",
+      "audio",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Freeday Ai",
+    "link": "https://www.freeday.ai",
+    "description": "AI-powered digital staffing platform for automating business processes and enhancing team productivity.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Bookkeeping",
+    "link": "https://bookeeping.ai",
+    "description": "AI-powered accounting tool automating bookkeeping tasks through chat with an AI assistant.",
+    "categories": [
+      "chatbot",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bookeeping Ai",
+    "link": "https://bookeeping.ai/",
+    "description": "AI-powered accounting platform automating bookkeeping tasks with features like invoicing and reporting.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Procys",
+    "link": "https://procys.com",
+    "description": "AI-powered platform for automated document processing and data extraction.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mesh",
+    "link": "https://www.usemesh.com",
+    "description": "AI-powered accounting co-worker for automated bookkeeping and real-time financial insights.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Nuvio",
+    "link": "https://www.nuvio.io",
+    "description": "AI-powered financial management tool for startups and small businesses.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ledgerbox",
+    "link": "https://ledgerbox.io",
+    "description": "AI-powered bank statement converter from PDF to Excel and CSV.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Rocket Statements",
+    "link": "https://www.rocketstatements.com",
+    "description": "All-in-one solution for converting bank statements into clean, structured data.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Zapro Ai",
+    "link": "https://zapro.ai",
+    "description": "End-to-end AP Automation software with AI-powered OCR and 3-way matching capabilities.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Search By Mesha",
+    "link": "https://www.mesha.club",
+    "description": "All-in-one financial platform for US businesses, offering accounting, tax, and bookkeeping solutions.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Credibl Esg",
+    "link": "https://www.crediblesg.com",
+    "description": "AI-powered ESG data management and reporting platform for sustainability advancements.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kili",
+    "link": "https://www.kili.so",
+    "description": "AI assistant for businesses, managing bills, invoices, and handling calls/appointments.",
+    "categories": [
+      "audio",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Cc Monet Home",
+    "link": "https://www.ccmonet.ai",
+    "description": "AI finance assistant for automated bookkeeping and financial management.",
+    "categories": [
+      "chatbot",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Entendre Finance",
+    "link": "https://entendre.finance",
+    "description": "AI-powered crypto accounting platform for Web3 teams, automating bookkeeping and reporting.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Inbuild",
+    "link": "https://www.inbuild.ai",
+    "description": "AI-powered construction financial software for invoice management, payments, and budget reconciliation.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Getinvoice",
+    "link": "https://www.get-invoice.com",
+    "description": "AI-powered invoice and receipt automation software.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mej Erp Ai",
+    "link": "https://mejerpai.com",
+    "description": "AI-powered ERP system for streamlined business management.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Snaptobook",
+    "link": "https://www.snaptobook.com",
+    "description": "Personal accounting software for receipt management, reimbursement, and tax filing.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Unitedtax Ai",
+    "link": "https://unitedtax.ai",
+    "description": "AI-assisted tax preparation with expert review for businesses and individuals.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Recordme",
+    "link": "https://recordme.ai",
+    "description": "AI-powered accounting automation software for streamlined financial operations and customized reports.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Received",
+    "link": "https://received.ai",
+    "description": "B2B Billing & Revenue Management platform automating invoicing, billing, and revenue management for complex contracts.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Finance Brain",
+    "link": "https://financebrain.ai",
+    "description": "AI-powered chatbot for instant finance and accounting answers from spreadsheet data.",
+    "categories": [
+      "chatbot",
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ever Efficient Ai",
+    "link": "https://everefficient.ai",
+    "description": "AI automation agency offering subscription-based solutions for business efficiency.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Tango Ai",
+    "link": "https://www.tangoagreements.com",
+    "description": "AI-powered platform for freelancers and agencies to streamline business operations and client engagement.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Invoice Matchpoint By Dodocs Ai",
+    "link": "https://dodocs.ai",
+    "description": "Automates invoice processing, data extraction, and chatbot services using AI.",
+    "categories": [
+      "audio",
+      "chatbot",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bank Statement Converter",
+    "link": "https://bankstatementconverter.org",
+    "description": "Software to convert PDF bank statements to CSV files automatically.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Fortune",
+    "link": "https://www.fortune.app",
+    "description": "AI-powered accounting software for business decision-making, cash flow tracking, and forecasting.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Assist Biz",
+    "link": "https://www.assist.biz",
+    "description": "ASSIST is a document management software for financial records with automated data extraction.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Financial Fusion",
+    "link": "https://financialfusion.io",
+    "description": "AI-powered financial SaaS platform for actionable insights and strategic decisions.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Backdrop",
+    "link": "https://www.joinbackdrop.com",
+    "description": "Financial tracking and expense management for film, TV, and event productions.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mrgn",
+    "link": "https://mrgn.ai",
+    "description": "AI-driven insights for restaurants to optimize costs and improve profitability.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Insightai",
+    "link": "https://insightai.in",
+    "description": "AI tool for finance: fraud detection, compliance, and improved customer service.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Turbodoc",
+    "link": "https://turbodoc.io",
+    "description": "AI-powered invoice processing and automation tool.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kerno Start",
+    "link": "https://www.kerno.ch",
+    "description": "Kerno automates company formation, accounting, and payroll in Europe with AI.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bank Statement Convert",
+    "link": "https://bankstatementconvert.com",
+    "description": "AI-powered tool to convert PDF bank statements to Excel/CSV instantly and securely.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adam",
+    "link": "https://interval-ai.com",
+    "description": "AI-powered accounts receivable automation for efficient debt collection and improved cash flow.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Accounting Apps",
+    "link": "https://www.aiaccountingapps.com",
+    "description": "A curated platform for AI-powered accounting tools and automation solutions.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Zeeinvoices",
+    "link": "https://zeeinvoices.com",
+    "description": "Free AI-powered invoicing software for businesses to create and manage invoices.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Oly Ai",
+    "link": "https://www.oly.ai",
+    "description": "AI-powered bookkeeping and financial analysis for QuickBooks Online users.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pennyflo",
+    "link": "https://www.pennyflo.io",
+    "description": "AI-powered SaaS tool for banking, forecasting, and cash flow management.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Serina",
+    "link": "https://www.serina.ai",
+    "description": "AI-powered invoice processing automation platform for streamlined accounts payable workflows.",
+    "categories": [
+      "audio",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Reform",
+    "link": "https://reformhq.com",
+    "description": "AI-powered platform for logistics automation and freight forwarding.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Documentpro",
+    "link": "https://www.documentpro.ai",
+    "description": "AI-powered platform for automated document processing and data extraction.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Spendtally",
+    "link": "https://spendtally.com",
+    "description": "AI-powered expense tracking and financial insights app for easy money management.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Homeworkify",
+    "link": "https://homeworkifyy.net",
+    "description": "Homeworkify is a free AI-powered homework help website with Q&A solutions.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Accountingsolverai",
+    "link": "https://accountingsolver.com",
+    "description": "Free online AI tool for solving accounting problems and automating tasks.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Invoice Box 发票盒子",
+    "link": "https://www.fapiaohezi.com",
+    "description": "Automated invoice extraction, categorization, and expense report generation using AI.",
+    "categories": [
+      "audio",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ontariosystems Com",
+    "link": "https://ontariosystems.com",
+    "description": "AI-driven workflow platforms for ARM and Healthcare industries, streamlining revenue recovery.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Tribearc",
+    "link": "https://tribearc.com",
+    "description": "AI-powered email marketing, page builder, and course creation tool for SMEs.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Facturasaexcel",
+    "link": "https://facturasaexcel.com",
+    "description": "Tool to automatically extract invoice data and convert to Excel for accounting.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Decodebills",
+    "link": "https://www.decodebills.com",
+    "description": "Automates invoice management by saving to Google Drive and extracting data to Google Sheets.",
+    "categories": [
+      "audio",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Midaflow",
+    "link": "https://www.midaflow.com",
+    "description": "All-in-one vendor, payment, and order management tool for SMBs.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Tablebits By Lensell",
+    "link": "https://www.tablebitsonline.com",
+    "description": "TableBits extracts table data from PDFs to CSV.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Billie",
+    "link": "https://getbillie.app",
+    "description": "macOS app to automate invoice renaming, moving, and emailing using machine learning.",
+    "categories": [
+      "audio",
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Receipt Cat",
+    "link": "https://www.receiptcat.com",
+    "description": "Receipt scanner and expense tracker for small businesses and freelancers.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mest",
+    "link": "https://mest.io",
+    "description": "Mest is a wallet tracker with accounting, analytics, and personalized insights.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Buildkeeper",
+    "link": "https://buildkeeper.co",
+    "description": "Construction management software with AI for small businesses, focusing on efficiency.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Expensee",
+    "link": "https://expensee.app",
+    "description": "Expense tracking and financial management app with voice and natural language input.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Reviews",
+    "link": "https://wereviews.co",
+    "description": "A platform for feedback, hiring, and creating online stores for services and products.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Spendsights",
+    "link": "https://spendsights.in",
+    "description": "Privacy-friendly expense manager for Indian banks, analyzing spending from bank statements.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Fdo Ai",
+    "link": "https://fdo.ai",
+    "description": "fdo.ai: AI tools for entrepreneurs to start and grow small businesses.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Expense Sorted",
+    "link": "https://www.expensesorted.com",
+    "description": "AI-powered expense categorization tool for Google Sheets and other platforms.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Myiq Ai",
+    "link": "https://www.myiq.ai",
+    "description": "AI-powered invoice automation solution for efficient and accurate invoice processing.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Harriet Ai",
+    "link": "https://www.harrietcfo.com",
+    "description": "Flat-fee bookkeeping service tailored for entrepreneurs to simplify business finances.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Billy Ai Invoicing Made Effortless",
+    "link": "https://getbilly.co",
+    "description": "AI-powered invoicing tool for small businesses and freelancers with Stripe integration.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Gpt Hero",
+    "link": "https://www.gpt-hero.io",
+    "description": "GPT Hero is a marketplace for discovering, sharing, and creating AI solutions using GPTs.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Eveski",
+    "link": "https://www.eveski.com",
+    "description": "AI-powered subscription manager for expense tracking and personalized financial advice.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Simpla Ai",
+    "link": "https://www.simpla.ai",
+    "description": "AI-powered financial tool for startups and SMEs, offering tax and accounting compliance solutions.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Getpersona App",
+    "link": "https://getpersona.app",
+    "description": "Expense management platform for project-based and field-employee-based companies.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Chartx Ai",
+    "link": "https://chartx.ai",
+    "description": "Next-generation software for managing elder care facilities with billing and patient management solutions.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Easygoing",
+    "link": "https://easydo.ing",
+    "description": "Invoice generation web application using natural language processing.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Myinvoicer",
+    "link": "https://myinvoicer.app",
+    "description": "Free billing system and AI invoicing tool for businesses and freelancers.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Receiptify",
+    "link": "https://receiptify.ai",
+    "description": "AI tool to automatically find, organize, and manage receipts from emails.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Proco",
+    "link": "https://proconow.co",
+    "description": "AI-powered finance platform for automation, analysis, and insights.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Slayed Ai",
+    "link": "http://slayed.ai",
+    "description": "AI-powered invoicing and payments software for efficient financial management.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ence",
+    "link": "https://ence.in",
+    "description": "AI-powered invoicing software for service providers and SMBs to streamline invoicing.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Fincheck By Trezy",
+    "link": "https://fincheck.trezy.io",
+    "description": "AI-powered financial statement analysis tool for key metrics and valuation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Learnex Ai",
+    "link": "https://www.learnexai.com",
+    "description": "Learnex AI: AI-powered education platform with 500+ AI tutors across various subjects.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Yapayzeka Net",
+    "link": "https://yapayzeka.net",
+    "description": "AI applications in accounting.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Splitparty",
+    "link": "https://splitparty.co",
+    "description": "Split bills easily with friends using AI receipt scanning and sharing.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "The Freelance App",
+    "link": "https://www.thefreelance.app",
+    "description": "Freelance income and expense tracker with AI, analysis, and benchmarking features.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hexar Ai",
+    "link": "https://hexarai.com",
+    "description": "All-in-one AI platform with 37 tools for solopreneurs to build and scale businesses.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Invoiceocr",
+    "link": "https://www.invoiceocr.net",
+    "description": "Directory for invoice OCR and AI solutions to automate invoice processing.",
+    "categories": [
+      "audio",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Paygenie",
+    "link": "https://www.paygenie.co",
+    "description": "AI-powered invoicing tool simplifying creation, management, and financial tracking for businesses.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Pdf Bank Statement Parser",
+    "link": "https://aibankparser.com",
+    "description": "AI tool to convert PDF bank statements to various spreadsheet formats.",
+    "categories": [
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Saaspec",
+    "link": "https://www.saaspec.com",
+    "description": "Track LLM API token costs, export data, and create Stripe invoices for pay-as-you-go software.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Stabbl",
+    "link": "https://stabbl.com",
+    "description": "Stabbl is a French invoicing tool for freelancers, simplifying invoice creation and ensuring legal compliance.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Apptrop",
+    "link": "https://apptrop.com",
+    "description": "Apptrop is a free cloud-based business suite with 50+ tools for various industries.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Evrythink 1 0 Financial Planning",
+    "link": "https://www.evrythink.com",
+    "description": "AI-powered financial tool for startups, SMEs, and freelancers.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Showmemoney",
+    "link": "https://www.showmemoney.app",
+    "description": "AI-powered expense tracker that automates expense tracking and provides spending insights.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ecomstat",
+    "link": "https://ecomstatapp.com",
+    "description": "EcomStat is a centralized analytics platform for e-commerce businesses to track costs and boost profits.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Genkin",
+    "link": "https://genkin.site",
+    "description": "AI-powered tool for effortless money tracking and financial analysis.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Daftar Automate Your Agency",
+    "link": "https://daftarapp.com",
+    "description": "Daftar is an agency automation OS for time tracking, project management, billing, and more.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Transacly Co",
+    "link": "https://transacly.co",
+    "description": "Platform automating billing, managing cash flow, and integrating with Stripe for invoicing and subscriptions.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Infawork",
+    "link": "https://infawork.com",
+    "description": "All-in-one ERP platform for SMBs, streamlining workflows and reducing costs.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Time Squeeze",
+    "link": "https://www.timesqueeze.net",
+    "description": "Automatic computer activity tracker for productivity, billing, and cost accounting.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Smart Invoices",
+    "link": "https://smartinvoices.app",
+    "description": "AI-powered invoicing assistant for creating professional invoices and estimates quickly.",
+    "categories": [
+      "audio",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Invoices Dev",
+    "link": "https://invoices.dev",
+    "description": "Automates invoice generation for developers from Git commits.",
+    "categories": [
+      "audio",
+      "coding",
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Accelbooks",
+    "link": "https://www.accelbooks.ai",
+    "description": "Embeddable accounting software with APIs and UI components for easy integration.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Rupease",
+    "link": "https://rupease.co",
+    "description": "Cash flow management system with AI insights and integrated sales tools for small businesses.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bank Statement Extractor",
+    "link": "https://www.bankstatementextract.com",
+    "description": "Tool to convert PDF bank statements to Excel instantly and securely.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Fiorino Ai",
+    "link": "https://fiorinoai.tech",
+    "description": "Open-source AI cost management platform for SaaS businesses using LLMs.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Invoicemint",
+    "link": "https://invoicemint.in",
+    "description": "AI-powered invoicing and finance management software for global businesses.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Eliteinvoice",
+    "link": "https://eliteinvoice.com",
+    "description": "AI-powered invoicing platform for creating, customizing, and sending professional invoices.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Invoicedataextraction Com",
+    "link": "https://invoicedataextraction.com",
+    "description": "AI tool for fast, accurate, template-free invoice data extraction to Excel.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bizfast Io",
+    "link": "https://bizfast.io",
+    "description": "AI-powered receipt management and business consulting platform.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Workfusion App",
+    "link": "https://www.workfusionapp.com",
+    "description": "AI-powered accounting dashboard for automated bookkeeping and financial insights.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Invoicer",
+    "link": "https://aiinvoicer.in",
+    "description": "AI Invoicer is an invoicing platform that helps streamline the invoicing process.",
+    "categories": [
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Sendpay",
+    "link": "https://www.sendpaymail.com",
+    "description": "All-in-one productivity platform with AI email, payments, and workflow management for SMBs.",
+    "categories": [
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Vent",
+    "link": "https://useventapp.com",
+    "description": "Vent AI automates financial tracking and provides insights for business growth.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Finjy",
+    "link": "https://finjy.com",
+    "description": "AI-powered financial auditor providing insights and expense management.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Jupid Ai Accountant",
+    "link": "https://jupid.com",
+    "description": "AI business assistant automating LLC formation, bookkeeping, and tax filing for small businesses.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Victoria Ai",
+    "link": "https://www.versionseven.ai",
+    "description": "AI workflow automation platform connecting tools to automate complex tasks with simple prompts.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Capyparse",
+    "link": "https://capyparse.com",
+    "description": "AI-powered PDF and image to CSV/Excel converter with bank statement processing.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Rapidscan Ai",
+    "link": "https://rapidscan.ai",
+    "description": "AI-powered document processing and management for efficient workflows and data extraction.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Trae",
+    "link": "https://trae.ai/",
+    "description": "AI-powered IDE for enhanced developer collaboration and efficiency.",
+    "categories": [
+      "coding"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Predis",
+    "link": "https://predis.ai",
+    "description": "AI-powered content generator for social media posts and ads.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adcreative Ai",
+    "link": "https://free-trial.adcreative.ai/98krjvb7wdoq",
+    "description": "AI-powered platform for generating conversion-focused ad creatives and optimizing advertising strategies.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Creatopy",
+    "link": "https://www.creatopy.com",
+    "description": "AI-powered ad creation and automation platform for efficient ad campaigns.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Image Translator For Ecom Image",
+    "link": "https://www.pipiads.com/ai-image-translator",
+    "description": "Advertising and dropshipping platform specializing in TikTok ads and product research.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Minea",
+    "link": "https://en.minea.com",
+    "description": "All-in-one e-commerce product research and ad spy tool for dropshipping and e-commerce businesses.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Otto Google Ads",
+    "link": "https://searchatlas.com/otto-google-ads",
+    "description": "AI-powered SEO platform for automation and scaling.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Icon Ai Generated Influencer Ads",
+    "link": "https://icon.com",
+    "description": "AI Admaker for planning, creating, and running winning ads.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Gethookd",
+    "link": "https://www.gethookd.ai",
+    "description": "AI-powered platform to streamline ad creation and improve ad performance.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Rubii",
+    "link": "https://rubii.ai",
+    "description": "Rubii offers AI character chat, roleplay, and virtual companionship.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Maker Ai",
+    "link": "https://app.draft.co/signup",
+    "description": "AI-powered photo & video generation for e-commerce, replacing photoshoots with generative AI.",
+    "categories": [
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hautech Ai",
+    "link": "https://www.hautech.ai",
+    "description": "AI platform for generating fashion visuals with AI models.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Lexilexi Ai",
+    "link": "https://lexilexi.ai",
+    "description": "AI-powered tool for generating and optimizing Meta ads for better ROI and conversion.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Viral Ecom Adz",
+    "link": "https://viralecomadz.com",
+    "description": "Video editing service for e-commerce ads that convert.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Neuronsinc Com",
+    "link": "https://neuronsinc.com",
+    "description": "Marketing AI platform using neuroscience to improve campaign effectiveness.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Neurons",
+    "link": "https://www.neuronsinc.com",
+    "description": "Neuroscience-based AI tool for visualizing customer attention and improving ad campaigns.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Shown Io",
+    "link": "https://shown.io/p/hCbui4ATCX",
+    "description": "AI-powered ad optimization platform for efficient online ad management and scaling.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Waymark",
+    "link": "https://waymark.com",
+    "description": "AI video creator for customized sample commercials and high-impact ads.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adpilot By Picsart",
+    "link": "https://onlineadmaker.com",
+    "description": "AI-powered ad creation tool for social media with image and text generation.",
+    "categories": [
+      "writing",
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Polaranalytics Com",
+    "link": "https://polaranalytics.com",
+    "description": "Shopify analytics platform for centralized data, KPI calculation, and real-time insights.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Enhencer Com",
+    "link": "https://enhencer.com",
+    "description": "AI platform to maximize ad performance for e-commerce businesses.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Connected Stories Genaissance",
+    "link": "https://connected-stories.com",
+    "description": "AI-powered creative management platform for personalized content generation and optimization.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adscan Ai",
+    "link": "https://adscan.ai",
+    "description": "AI-powered ad analysis platform for discovering winning ads and optimizing ad strategies.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adgen Ai",
+    "link": "https://www.adgenai.com",
+    "description": "AI ad generator for creating, testing, and publishing ads at scale.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Zocket",
+    "link": "https://zocket.ai",
+    "description": "Zocket is a GenAI platform for quick and easy ad creation and management.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Segwise Ai",
+    "link": "https://www.segwise.ai",
+    "description": "AI-powered platform to optimize ad creatives and improve ROAS.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Metric Tech",
+    "link": "https://www.metric.tech",
+    "description": "AI-powered marketing automation platform for Shopify store owners to scale their businesses.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Productly App",
+    "link": "https://productly.app",
+    "description": "AI-powered marketing tool for product descriptions, email marketing, copywriting, and SMS.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Suppixel Ai",
+    "link": "https://suppixel.ai",
+    "description": "AI-powered image enhancement and upscaling for superior visual quality.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Fliz Ai",
+    "link": "https://fliz.ai/",
+    "description": "Fliz is an AI-powered video creator that turns URLs into engaging videos for various platforms.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Nexad",
+    "link": "https://www.nex.ad",
+    "description": "Nexad: AI-native advertising for enhanced engagement and smarter monetization.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adgpt Com",
+    "link": "https://adgpt.com",
+    "description": "AI-powered platform for creating high-converting ads quickly and efficiently.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Viro",
+    "link": "https://app.viro.so/",
+    "description": "Viro is an AI-powered thumbnail generator for videos, automating creation and optimization.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Dropbotai Com",
+    "link": "https://dropbotai.com/",
+    "description": "AI-powered software for dropshippers to optimize product testing and scaling.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Community Hub",
+    "link": "https://sesamelabs.xyz",
+    "description": "AI-powered community marketing and ad campaign management platform.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Fusionos Ai",
+    "link": "https://www.fusionos.ai",
+    "description": "AI-powered platform for instant ad generation and marketing campaign management.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Qortex Ai",
+    "link": "https://qortex.ai",
+    "description": "Advanced video intelligence platform providing actionable insights to link video to performance outcomes.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Airpost",
+    "link": "https://www.airpost.ai",
+    "description": "AI-powered platform for automated UGC video ad creation.",
+    "categories": [
+      "video generation",
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Evercopy",
+    "link": "https://dashboard.evercopy.ai/",
+    "description": "AI-powered platform for generating on-brand marketing creatives at scale.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Plug Play Ai Marketing Team",
+    "link": "https://evercopy.ai",
+    "description": "AI-powered marketing team for campaign planning, multimedia creation, and ad optimization.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Memorable Ad Maker",
+    "link": "https://www.memorable.io",
+    "description": "AI platform to predict ad creative impact and optimize ad performance.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Thirdi",
+    "link": "https://thirdi.ai",
+    "description": "AI-powered growth marketing platform for data-driven campaigns and enhanced customer engagement.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adsgency Ai Mvp",
+    "link": "https://AdsGency.ai",
+    "description": "AI-powered platform for ad creation, optimization, and multichannel marketing.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hookads Ai",
+    "link": "https://hookads.ai",
+    "description": "HookAds AI provides pre-tested ad creatives to boost ad performance and convert viewers into customers.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Alphactr",
+    "link": "https://alphactr.com",
+    "description": "AI platform for generating high-performance thumbnails and ad creatives.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Clickable",
+    "link": "https://www.clickable.so",
+    "description": "AI-powered ad generator for brand-consistent, high-converting ads across all channels.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Averi",
+    "link": "https://averi.ai",
+    "description": "AI marketing management platform with expert marketplace for strategy, content, and team building.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Shakespeare",
+    "link": "https://www.shakespeare.ai",
+    "description": "AI copywriting software for marketing, offering targeting, automation, and optimization solutions.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ugc Ads",
+    "link": "https://www.ugcads.io",
+    "description": "AI-powered UGC generation for ads and organic social media.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ad Mocker",
+    "link": "https://admocker.com",
+    "description": "Ad mockup generator for Facebook, Instagram, Google Display Network, and YouTube ads.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Product Shot",
+    "link": "https://aiproductshot.com/",
+    "description": "AI-powered tool for creating professional product images.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Omnitrain Ai",
+    "link": "https://omnitrain.ai",
+    "description": "AI-powered platform for fast, customized, and effective ad creation.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Selfadvertiser Com",
+    "link": "https://selfadvertiser.com",
+    "description": "Global technology company providing AI-driven marketing and monetization solutions.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Creative Fast Aid",
+    "link": "https://creativefastaid.com",
+    "description": "AI tool for generating creative campaign ideas for brands and NGOs.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Swipify",
+    "link": "https://swipify.ai",
+    "description": "A curated library of social ads to inspire creative ad concepts and analyze performance.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Daydrm Ai",
+    "link": "https://www.daydrm.ai",
+    "description": "AI tool for generating creative advertising ideas and concepts on demand.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Xiangji 1 0",
+    "link": "https://www.xiangji.ai",
+    "description": "AI-powered platform for generating commercial visuals and marketing content.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adxl Ai",
+    "link": "https://www.adxl.ai/",
+    "description": "ADXL: AI-powered ad platform unifying multiple channels for effortless, optimized advertising.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Posterstudio",
+    "link": "https://posterstudio.ai",
+    "description": "PosterStudio is an AI-powered ad creator for social media advertisements with no design skills needed.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Growtake",
+    "link": "https://growtake.com",
+    "description": "AI-powered ad automation tool for effortless multi-platform advertising.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Agentprod",
+    "link": "https://agentprod.com",
+    "description": "AgentProd automates sales and marketing with AI SDRs and performance marketers.",
+    "categories": [
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Dicer Ai",
+    "link": "https://dicer.ai",
+    "description": "AI-powered platform optimizing ad creatives and campaigns for better conversions.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Roach Ai",
+    "link": "https://roach.ai",
+    "description": "Roach.AI is an all-in-one e-commerce tool for product research, ad analysis, and content creation.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hippist Ai",
+    "link": "https://www.hippist.com",
+    "description": "AI-powered product photo generation with AI models and custom scenes.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adstronaut",
+    "link": "https://www.adstronaut.net",
+    "description": "AI-powered fashion platform for hyper-realistic clothing product photos and AI fashion photoshoots.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Showstop",
+    "link": "https://showstop.ai",
+    "description": "AI-powered platform for creating conversion-focused video ads from existing media.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Wafrow Landing Pages On Steroids",
+    "link": "https://wafrow.com",
+    "description": "AI-powered platform for dynamic images and personalized marketing automation.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Peachly Ai",
+    "link": "https://peachlyai.xyz",
+    "description": "All-in-one AI advertising solution for creating, targeting, and optimizing ad campaigns.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Cameralyze No Code Ai Studio",
+    "link": "https://www.plugger.ai/",
+    "description": "AI-powered design platform for generating social media graphics, logos, and marketing assets.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Faqx",
+    "link": "https://faqx.com",
+    "description": "AI-powered platform optimizing ad creatives and campaign strategies for better conversions.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Beb Ai",
+    "link": "https://beb.ai",
+    "description": "Beb.ai generates avatars and creative content using AI, no design skills needed.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hifen Io",
+    "link": "https://hifen.io",
+    "description": "AI-powered platform for finding video ad references and inspiration.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adgen Studio",
+    "link": "https://www.adgenstudio.com",
+    "description": "AI-powered platform for generating ad copies for Google, Facebook, and LinkedIn.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Motion Cut",
+    "link": "https://motioncut.io",
+    "description": "On-demand animated video studio for SaaS, E-Commerce, and AI companies.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Frequently Ai",
+    "link": "https://www.frequently.ai",
+    "description": "AI assistant for Amazon businesses, providing insights and solutions for operations and sales.",
+    "categories": [
+      "chatbot",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Quantplus",
+    "link": "http://quantplus.io",
+    "description": "AI-driven platform optimizing ad creative performance through element analysis and data-backed insights.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ai Logo Art",
+    "link": "https://ailogoart.com",
+    "description": "AI tool to transform logos into stunning art for promotional visuals.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Altos Ai Autonomous Advertising",
+    "link": "https://www.helloaltos.com",
+    "description": "AI-powered autonomous ad platform for agencies, automating optimization, management, and tracking.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Product Ad Ai",
+    "link": "https://productad.co",
+    "description": "AI platform for creating product advertising photos quickly.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ohmysynt",
+    "link": "https://ohmysynt.io",
+    "description": "Cloud platform for personalized AI-generated marketing content.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adflare Ai",
+    "link": "https://adflare.ai",
+    "description": "AI platform for generating product images for ads and marketing.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ecoms Genie Ai",
+    "link": "https://www.ecomsgenie.com",
+    "description": "AI coaching software for Shopify stores, offering AI tools and services to boost e-commerce success.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Hollyfy",
+    "link": "https://www.hollyfy.com",
+    "description": "A.I. matchmaking platform connecting advertisers with content creators and on-demand marketing services.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adxcel Com",
+    "link": "https://adxcel.com",
+    "description": "AI-powered marketing automation platform for cross-channel attribution and personalization.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Living Images",
+    "link": "https://img.coframe.ai",
+    "description": "Generative AI optimizes website images through A/B testing.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Brandnetworksinc Com",
+    "link": "https://brandnetworksinc.com",
+    "description": "AI-driven social technologies for global audience engagement and brand experiences.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Imgpt",
+    "link": "https://www.img-pt.com",
+    "description": "AI-powered marketing software for creating custom ad creatives from a URL.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adastra",
+    "link": "https://1trillionclub.com/",
+    "description": "AI-powered advertising automation software for Amazon ads optimization.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Mad Ad",
+    "link": "https://www.madad.site",
+    "description": "AI tool to generate product images from camera clicks for advertisements.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adspawn",
+    "link": "https://www.adspawn.com",
+    "description": "AI marketing platform for mobile games, generating ad copy and ASO creatives.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Performwell",
+    "link": "https://performwell.online",
+    "description": "AI-powered platform for streamlined ad creation and improved ad performance.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Instaon Io",
+    "link": "https://instaon.io",
+    "description": "AI-powered ad optimization platform for efficient online advertising campaign management.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Veedy Ai",
+    "link": "https://veedy.ai",
+    "description": "AI platform that transforms static images into dynamic, animated ads with data-driven optimization.",
+    "categories": [
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adlas Io",
+    "link": "https://adlas.io",
+    "description": "Adlas uses AI to generate tailor-made Google Ads campaigns from your website.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Shots Maker",
+    "link": "https://shotsmaker.com",
+    "description": "AI-powered platform for instant garment photoshoots with fashion models.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Lolify",
+    "link": "https://www.lolify.io",
+    "description": "AI-powered humor engine for creating trending memes and witty content quickly.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Engaugeai Test Your Ad Creatives",
+    "link": "https://www.engaugeai.net",
+    "description": "AI-powered platform for testing and optimizing marketing creative with real-time audience insights.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Virtual Verse Labs",
+    "link": "https://virtualverselabs.com",
+    "description": "AI platform transforming stories into stunning visuals for marketing and content creation.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Human Model Based Ai Images",
+    "link": "https://ivisual.ai",
+    "description": "AI image generation platform using human models for fashion and product campaigns.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Genads",
+    "link": "https://genads.app",
+    "description": "AI-powered dynamic ad creation for e-commerce product catalogs, integrating with Meta and Shopify.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Dynamicads",
+    "link": "https://dynamicads.app",
+    "description": "AI-powered platform for creating interactive, voice-enabled ads that drive conversions.",
+    "categories": [
+      "audio",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Asset Creatives Ai",
+    "link": "https://asset-creatives-ai.com",
+    "description": "AI-powered CPA network for creating high-converting ad creatives and maximizing ROI.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "F Xai",
+    "link": "https://foxai.app",
+    "description": "AI-powered creative analysis tool for ad optimization with data insights.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adsrapido",
+    "link": "https://adsrapido.com",
+    "description": "AI-powered ad analysis tool for Facebook & Instagram, providing strategic insights rapidly.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Content Creation Tools",
+    "link": "https://contentcreation.tools",
+    "description": "A curated directory of content creation tools for creators to enhance their workflow.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Make Ad",
+    "link": "https://make.ad",
+    "description": "AI platform to create high-converting product ads from text in seconds.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Smmai Ai Banner Maker",
+    "link": "https://home.smmai.app",
+    "description": "Skip the blank canvas. AI creates thousands of banners for you instantly. Free web and iOS app, ready to use!",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Generate Ads Ai",
+    "link": "https://generateads.ai",
+    "description": "AI tool to generate scroll-stopping ads in minutes.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "The Influencer Ai",
+    "link": "https://www.theinfluencer.ai",
+    "description": "Create your own *consistent* AI influencer in minutes. Then use them for photos, videos, product images, and try-ons",
+    "categories": [
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Recraft Image Model",
+    "link": "https://www.recraft.ai",
+    "description": "Premium AI image generation and editing tool for professional designers and teams.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Captions",
+    "link": "https://www.captions.ai",
+    "description": "AI-powered video creation and editing app with automatic captions and various AI tools.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Wondershare Virbo",
+    "link": "https://virbo.wondershare.com",
+    "description": "AI video generator with avatars, voices, and translation for effortless video creation.",
+    "categories": [
+      "image generation",
+      "video generation",
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Basedlabs",
+    "link": "https://www.basedlabs.ai/",
+    "description": "BasedLabs.ai offers AI tools for image, video, and audio content creation and collaboration.",
+    "categories": [
+      "image generation",
+      "video generation",
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Writesonic",
+    "link": "https://writesonic.com",
+    "description": "AI writer for SEO content, ads, blogs, paraphrasing, and AI chatbot/image generation.",
+    "categories": [
+      "writing",
+      "image generation",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pippit Ai",
+    "link": "https://pippit.capcut.com",
+    "description": "Smart creative agent to streamline and enhance content production with AI-powered tools.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Creatify",
+    "link": "https://creatify.ai/",
+    "description": "AI-powered video ad generator for creating and testing marketing videos at scale.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Higgsfield",
+    "link": "https://higgsfield.ai",
+    "description": "AI-powered camera control for cinematic video generation from photos.",
+    "categories": [
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Phot Ai",
+    "link": "https://www.phot.ai",
+    "description": "AI-powered visual design platform with photo editing and content creation tools.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Topview Ai",
+    "link": "https://www.topview.ai",
+    "description": "AI video editor that turns links into viral videos with AI-powered features.",
+    "categories": [
+      "writing",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Durable",
+    "link": "https://durable.sjv.io/jerLdb",
+    "description": "AI-powered platform for solo business owners to build and grow their business online.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Lightx",
+    "link": "https://www.lightxeditor.com",
+    "description": "AI photo and video editor with AI image generation and customizable templates.",
+    "categories": [
+      "writing",
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Powtoon",
+    "link": "https://go.fiverr.com/visit/",
+    "description": "A visual communication platform to create engaging videos and presentations easily.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Deevid Ai",
+    "link": "https://deevid.ai",
+    "description": "AI video generator transforming text, images, or videos into stunning videos quickly and easily.",
+    "categories": [
+      "writing",
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Gravity Write",
+    "link": "https://gravitywrite.com/",
+    "description": "AI-powered writing assistant for easy and efficient content creation.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Arcads",
+    "link": "https://arcads.ai",
+    "description": "AI platform to generate video ads from text using AI actors.",
+    "categories": [
+      "writing",
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Blaze",
+    "link": "https://get.blaze.ai",
+    "description": "AI-powered marketing content creation tool with brand voice customization.",
+    "categories": [
+      "audio",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Blaze Designer",
+    "link": "https://www.blaze.ai",
+    "description": "AI marketing platform for generating blogs, posts, and videos in your brand voice.",
+    "categories": [
+      "writing",
+      "video generation",
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Aifreebox Free Ai Tools",
+    "link": "https://aifreebox.com",
+    "description": "A hub of free AI tools for content creation and optimization.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Flair Ai",
+    "link": "https://flair.ai",
+    "description": "AI design tool for generating branded product photos and e-commerce images.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Winninghunter Com",
+    "link": "https://winninghunter.com",
+    "description": "All-in-one e-commerce spy tool for finding winning products with competitor tracking and AI.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Promo Ai Video Maker",
+    "link": "https://promo.com",
+    "description": "Video creation platform for businesses to make marketing and promotional videos easily.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Vidau",
+    "link": "https://affiliates.vidau.ai/XfqLzb",
+    "description": "AI video generator for creating viral video ads with templates and AI tools.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Askingtips",
+    "link": "https://askingtips.com",
+    "description": "AI tool platform for content creation, marketing, and more.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Supermeme Ai",
+    "link": "https://app.supermeme.ai",
+    "description": "AI meme generator with multilingual support and API access for instant meme creation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Wordkraft Ai",
+    "link": "https://wordkraft.ai",
+    "description": "All-in-one AI platform with 250+ tools for content creation and marketing.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Neuroflash",
+    "link": "https://app.neuro-flash.com/free",
+    "description": "Europe's leading AI text and image generator for scalable content creation and marketing.",
+    "categories": [
+      "writing",
+      "image generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "200 Chatgpt Mega Prompts For Solopreneurs",
+    "link": "https://godofprompt.ai/solopreneurs-mega-prompts",
+    "description": "AI prompt library and tools to boost productivity for solopreneurs and marketers.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "200 Chatgpt Mega Prompts For Marketing",
+    "link": "https://www.godofprompt.ai/marketing-mega-prompts",
+    "description": "AI prompt and tool platform for marketing and content creation.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Zebracat Ai",
+    "link": "http://studio.zebracat.ai/signup/",
+    "description": "AI-powered video creation tool for marketers to quickly generate engaging marketing videos.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Makeugc",
+    "link": "https://www.makeugc.ai/",
+    "description": "AI-powered UGC platform for creating engaging marketing videos quickly and easily.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Sellthetrend Com",
+    "link": "https://www.SellTheTrend.com/join/affiliate14309",
+    "description": "All-in-one AI dropshipping software for product research, automation, and sales boosting.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Free Midjourney Ai Art Generator",
+    "link": "https://journeyaiart.com",
+    "description": "AI art generator creating images from text prompts with free daily quota.",
+    "categories": [
+      "writing",
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Synthesys X",
+    "link": "https://paykstrt.com/46963/136765",
+    "description": "AI content creation suite with voice, video, and image generation tools.",
+    "categories": [
+      "image generation",
+      "video generation",
+      "audio"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Nichesss",
+    "link": "https://nichesss.com",
+    "description": "AI-powered platform for content and business idea generation.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Pagepilot Ai",
+    "link": "https://pagepilot.ai/",
+    "description": "AI tool for Shopify product descriptions, landing pages, and finding winning products.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Cohesive Ai",
+    "link": "https://cohesive.so",
+    "description": "AI-powered content creation platform for effortless content generation and editing.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Kive",
+    "link": "https://kive.ai",
+    "description": "AI-powered platform for creative collaboration, visual asset management, and brand consistency.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Glorify 3 0 Design Tool Powered By Ai",
+    "link": "https://www.glorify.com",
+    "description": "AI-powered graphic design tool for e-commerce and marketing visuals.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Influee",
+    "link": "https://influee.co",
+    "description": "UGC platform connecting brands with creators for ad content.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Storylab Ai",
+    "link": "https://storylab.ai/",
+    "description": "AI content creation toolkit for marketers to generate engaging stories and campaigns.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Molypix Ai",
+    "link": "https://molypix.ai",
+    "description": "AI graphic design tool turning prompts into professional, editable designs instantly.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Open Spoken Ai",
+    "link": "https://openspokenai.com",
+    "description": "Uncensored AI text generator for unrestricted content creation across various industries.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ultra Fast Image Generator",
+    "link": "https://fastflux.co",
+    "description": "Free online AI image generator using FLUX.1 AI model.",
+    "categories": [
+      "image generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Sivi Ai",
+    "link": "https://sivi.ai",
+    "description": "Multilingual AI design generator for instant graphic design creation and editing.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Anyword",
+    "link": "https://anyword.com",
+    "description": "AI writing assistant generating effective, data-driven copy for marketing.",
+    "categories": [
+      "writing",
+      "chatbot",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Adminer Pro",
+    "link": "https://adminer.pro",
+    "description": "Competitive intelligence tool for dropshipping and info products to find winning products.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Clarice Ai",
+    "link": "https://clarice.ai/",
+    "description": "AI writing assistant for clear, strong, original, and error-free texts in Portuguese.",
+    "categories": [
+      "writing",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Plainly Ai",
+    "link": "https://www.plainlyvideos.com",
+    "description": "Video automation software to create data-driven videos from After Effects templates.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Glitching Ai",
+    "link": "https://www.glitching.ai//",
+    "description": "AI-powered dropshipping platform automating product sourcing, store building, and ad finding for beginners.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Storykit",
+    "link": "https://storykit.io",
+    "description": "AI video creation tool for transforming content into high-performing videos.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Digital First Ai",
+    "link": "https://app.digitalfirst.ai",
+    "description": "AI-powered marketing workflow platform for strategy, creation, and asset production.",
+    "categories": [
+      "productivity",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Magickpen",
+    "link": "https://magickpen.com",
+    "description": "AI-powered writing assistant with text generation, grammar check, and translation features.",
+    "categories": [
+      "writing",
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Story Boards Ai",
+    "link": "https://www.story-boards.ai",
+    "description": "AI-powered platform for creating visual storyboards from ideas, scripts, and prompts.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Contentbot Ai",
+    "link": "https://contentbot.ai",
+    "description": "AI content automation tool for creating blogs, marketing copy, and more.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Typeface",
+    "link": "https://www.typeface.ai",
+    "description": "Generative AI for creating personalized, on-brand enterprise content quickly.",
+    "categories": [
+      "general ai"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Remagine Ai",
+    "link": "https://remagineai.com",
+    "description": "AI content creation platform with 200+ templates for marketing and copywriting.",
+    "categories": [
+      "writing",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Copylime Com",
+    "link": "https://copylime.com/",
+    "description": "AI writing assistant for fast and efficient content creation.",
+    "categories": [
+      "chatbot"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bria",
+    "link": "https://bria.ai",
+    "description": "Visual generative AI platform for automating and scaling video and image creation with licensed data.",
+    "categories": [
+      "image generation",
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Bria Ai",
+    "link": "https://bria.ai",
+    "description": "Bria.ai provides generative AI solutions for commercial use with licensed, copyright-compliant data.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Postly",
+    "link": "https://postly.ai",
+    "description": "All-in-one AI social media management platform for planning, designing, and publishing content across multiple platforms.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Copymatic",
+    "link": "https://copymatic.ai/",
+    "description": "AI-powered copywriter and content writer for generating various types of content quickly.",
+    "categories": [
+      "writing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Optimo",
+    "link": "https://askoptimo.com",
+    "description": "Optimo is a free AI-powered marketing tool suite by FATJOE.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Voolt",
+    "link": "https://voolt.com",
+    "description": "AI website builder and lead generation for small businesses.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Fibr Ai",
+    "link": "https://fibr.ai",
+    "description": "AI-powered CRO workforce to automate website testing and personalization for marketers.",
+    "categories": [
+      "productivity"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Ugc Ads Ai",
+    "link": "https://ugcads.ai",
+    "description": "AI platform for generating UGC video ads quickly and cost-effectively.",
+    "categories": [
+      "video generation",
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Boolvideo",
+    "link": "https://boolv.video/",
+    "description": "AI-powered video maker for easy and professional video production.",
+    "categories": [
+      "video generation"
+    ],
+    "pricing_model": "Unknown"
+  },
+  {
+    "name": "Plai Io",
+    "link": "https://app.plai.io/",
+    "description": "AI-powered marketing app for easy ad and landing page creation.",
+    "categories": [
+      "marketing"
+    ],
+    "pricing_model": "Unknown"
+  }
 ]

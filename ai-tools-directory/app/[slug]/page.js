@@ -3,21 +3,59 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 export async function generateStaticParams() {
-    return data.map((tool) => ({
+    return data.tools.map((tool) => ({
         slug: tool.slug,
     }));
 }
 
+export async function generateMetadata({ params }) {
+    const { slug } = await params;
+    const tool = data.tools.find((t) => t.slug === slug);
+    if (!tool) return {};
+
+    return {
+        title: `${tool.seo_title} | AI Directory`,
+        description: tool.verdict,
+        keywords: [tool.name, tool.primary_category, 'AI tools', 'reviews'],
+        openGraph: {
+            title: tool.seo_title,
+            description: tool.description,
+            type: 'website',
+        }
+    };
+}
+
 export default async function ToolPage({ params }) {
     const { slug } = await params;
-    const tool = data.find((t) => t.slug === slug);
+    const tool = data.tools.find((t) => t.slug === slug);
 
     if (!tool) {
         notFound();
     }
 
+    // JSON-LD Structured Data
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareApplication',
+        name: tool.name,
+        applicationCategory: tool.primary_category,
+        operatingSystem: 'Cloud/Web',
+        description: tool.description,
+        offers: {
+            '@type': 'Offer',
+            price: '0', // Dynamic pricing would go here
+            priceCurrency: 'USD',
+        }
+    };
+
     return (
         <div className="container">
+            {/* Inject JSON-LD */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
+
             <header>
                 <div className="nav">
                     <Link href="/" className="logo">AI Directory</Link>
@@ -35,7 +73,7 @@ export default async function ToolPage({ params }) {
                         {tool.verdict}
                     </p>
                     <div style={{ marginTop: '2rem' }}>
-                        <a href={tool.link} target="_blank" rel="noopener noreferrer" className="btn">
+                        <a href={`/go/${tool.slug}`} target="_blank" rel="noopener noreferrer" className="btn btn-gradient" style={{ padding: '1rem 2rem', fontSize: '1.2rem' }}>
                             Visit {tool.name} Website →
                         </a>
                     </div>
@@ -91,7 +129,7 @@ export default async function ToolPage({ params }) {
                     <h2>Ready to try {tool.name}?</h2>
                     <p>Join thousands of professionals using {tool.name} to streamline their workflow.</p>
                     <br />
-                    <a href={tool.link} target="_blank" rel="noopener noreferrer" className="btn">
+                    <a href={`/go/${tool.slug}`} target="_blank" rel="noopener noreferrer" className="btn btn-gradient">
                         Get Started with {tool.name}
                     </a>
                 </section>

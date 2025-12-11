@@ -34,7 +34,31 @@ const enhancedData = rawData.map(tool => {
     };
 });
 
-fs.writeFileSync('./pSEO_Data/ai_tools_ready.json', JSON.stringify(enhancedData, null, 2));
+// 6. Generate "Versus" Pairings
+const comparisons = [];
+enhancedData.forEach((toolA, index) => {
+    enhancedData.slice(index + 1).forEach(toolB => {
+        // Only compare if they share at least one category to make it relevant
+        const sharedCats = toolA.categories.filter(c => toolB.categories.includes(c));
+        if (sharedCats.length > 0) {
+            comparisons.push({
+                slug: `${toolA.slug}-vs-${toolB.slug}`,
+                toolA: toolA.slug,
+                toolB: toolB.slug,
+                shared_categories: sharedCats,
+                title: `${toolA.name} vs ${toolB.name}: Which AI Tool is Better in 2025?`
+            });
+        }
+    });
+});
+
+const finalOutput = {
+    tools: enhancedData,
+    comparisons: comparisons
+};
+
+fs.writeFileSync('./pSEO_Data/ai_tools_ready.json', JSON.stringify(finalOutput, null, 2));
 
 console.log(`Successfully enriched ${enhancedData.length} tools.`);
+console.log(`Generated ${comparisons.length} comparison pages.`);
 console.log("Sample enriched tool:", enhancedData[0]);
