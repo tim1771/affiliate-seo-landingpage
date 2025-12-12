@@ -34,10 +34,13 @@ const enhancedData = rawData.map(tool => {
     };
 });
 
-// 6. Generate "Versus" Pairings
+// 6. Generate "Versus" Pairings (Bidirectional)
 const comparisons = [];
-enhancedData.forEach((toolA, index) => {
-    enhancedData.slice(index + 1).forEach(toolB => {
+enhancedData.forEach((toolA) => {
+    enhancedData.forEach((toolB) => {
+        // Skip self-comparison
+        if (toolA.slug === toolB.slug) return;
+
         // Only compare if they share at least one category to make it relevant
         const sharedCats = toolA.categories.filter(c => toolB.categories.includes(c));
         if (sharedCats.length > 0) {

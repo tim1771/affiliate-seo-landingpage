@@ -85,15 +85,14 @@ export default async function ComparisonPage({ params }) {
                     <h2>Our Verdict</h2>
                     <p style={{ maxWidth: '700px', margin: '0 auto', fontSize: '1.2rem', lineHeight: '1.8' }}>
                         If you are looking for <strong>{comparison.shared_categories[0]}</strong>, both {toolA.name} and {toolB.name} are excellent choices.
-                        However, {toolA.name} stands out for its specific focus on {toolA.categories[1] || toolA.primary_category}, while {toolB.name}
-                        might be better if you need {toolB.categories[1] || "general capabilities"}.
+                        However, {toolA.name} stands out for its specific focus on {toolA.categories[1] || toolA.primary_category}, while {toolB.name} might be better if you need {toolB.categories[1] || "general capabilities"}.
                     </p>
                 </section>
 
             </main>
 
             <footer style={{ padding: '2rem 0', textAlign: 'center', color: '#666', borderTop: '1px solid #262626' }}>
-                <p>© 2025 AI Directory. All rights reserved.</p>
+                <p>© 2026 AI Directory. All rights reserved.</p>
             </footer>
         </div>
     );
