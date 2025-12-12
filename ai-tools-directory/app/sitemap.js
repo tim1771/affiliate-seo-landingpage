@@ -1,5 +1,7 @@
 import data from '../lib/data.json';
 
+export const dynamic = 'force-static';
+
 export default function sitemap() {
     const tools = data.tools.map((tool) => ({
         url: `https://aitools2026.netlify.app/${tool.slug}`,
