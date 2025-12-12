@@ -75,6 +75,39 @@
     ]
   },
   {
+    "name": "Perplexity",
+    "link": "https://perplexity.ai",
+    "description": "The AI search engine that gives you direct answers with citations.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "research",
+      "chatbot",
+      "productivity"
+    ]
+  },
+  {
+    "name": "n8n",
+    "link": "https://n8n.io",
+    "description": "Workflow automation for technical people. Fair-code distribution.",
+    "pricing_model": "Freemium",
+    "categories": [
+      "automation",
+      "coding",
+      "productivity"
+    ]
+  },
+  {
+    "name": "Revmatics",
+    "link": "https://revmatics.ai",
+    "description": "AI-driven revenue acceleration and sales intelligence.",
+    "pricing_model": "Paid",
+    "categories": [
+      "marketing",
+      "sales",
+      "analytics"
+    ]
+  },
+  {
     "name": "Synthesia",
     "link": "https://synthesia.io",
     "description": "Create AI videos from text in minutes.",

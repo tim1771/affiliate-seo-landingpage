@@ -59,7 +59,7 @@ export default function Home() {
         />
         <div className="nav">
           <div className="logo">AI Directory</div>
-          <a href="#" className="btn icon-btn" style={{ background: '#262626' }}>Subscribe</a>
+          <a href="https://lms.worklocal.ca/" target="_blank" className="btn icon-btn" style={{ background: '#ec4899', border: 'none' }}>🎓 AI Training Hub</a>
         </div>
       </header>
 

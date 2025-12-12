@@ -139,6 +139,23 @@ export default async function ToolPage({ params }) {
                             }
                         </div>
                     </div>
+
+                    {/* Direct Comparison "Versus" Links */}
+                    <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '1px solid #333' }}>
+                        <h3>Compare {tool.name} vs Others</h3>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.8rem', marginTop: '1rem' }}>
+                            {data.tools
+                                .filter(t => t.slug !== tool.slug && t.primary_category === tool.primary_category)
+                                .slice(0, 8)
+                                .map(competitor => (
+                                    <Link key={competitor.slug} href={`/compare/${tool.slug}-vs-${competitor.slug}`}
+                                        style={{ fontSize: '0.8rem', color: '#a3a3a3', textDecoration: 'underline' }}>
+                                        {tool.name} vs {competitor.name}
+                                    </Link>
+                                ))
+                            }
+                        </div>
+                    </div>
                 </section>
 
                 <section className="section" style={{ background: '#171717', padding: '3rem', borderRadius: '12px', textAlign: 'center' }}>
