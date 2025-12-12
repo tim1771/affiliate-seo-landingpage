@@ -147,12 +147,17 @@ export default async function ToolPage({ params }) {
                             {data.tools
                                 .filter(t => t.slug !== tool.slug && t.primary_category === tool.primary_category)
                                 .slice(0, 8)
-                                .map(competitor => (
-                                    <Link key={competitor.slug} href={`/compare/${tool.slug}-vs-${competitor.slug}`}
-                                        style={{ fontSize: '0.8rem', color: '#a3a3a3', textDecoration: 'underline' }}>
-                                        {tool.name} vs {competitor.name}
-                                    </Link>
-                                ))
+                                .map(competitor => {
+                                    const sortedSlugs = [tool.slug, competitor.slug].sort();
+                                    const compSlug = `${sortedSlugs[0]}-vs-${sortedSlugs[1]}`;
+
+                                    return (
+                                        <Link key={competitor.slug} href={`/compare/${compSlug}`}
+                                            style={{ fontSize: '0.8rem', color: '#a3a3a3', textDecoration: 'underline' }}>
+                                            {tool.name} vs {competitor.name}
+                                        </Link>
+                                    );
+                                })
                             }
                         </div>
                     </div>

@@ -34,12 +34,14 @@ const enhancedData = rawData.map(tool => {
     };
 });
 
-// 6. Generate "Versus" Pairings (Bidirectional)
+// 6. Generate "Versus" Pairings (Canonical Alphabetical)
 const comparisons = [];
 enhancedData.forEach((toolA) => {
     enhancedData.forEach((toolB) => {
-        // Skip self-comparison
-        if (toolA.slug === toolB.slug) return;
+        // Semantic Check: Enforce alphabetical order (slug A must be < slug B)
+        // This creates ONE unique comparison page per pair (e.g. "chatgpt-vs-claude")
+        // eliminating duplicates and keeping the build size manageable (~30k pages).
+        if (toolA.slug >= toolB.slug) return;
 
         // Only compare if they share at least one category to make it relevant
         const sharedCats = toolA.categories.filter(c => toolB.categories.includes(c));
