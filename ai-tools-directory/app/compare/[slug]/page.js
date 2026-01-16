@@ -5,7 +5,9 @@ import WaitlistForm from '../../components/WaitlistForm';
 
 export async function generateStaticParams() {
     if (!data.comparisons) return [];
-    return data.comparisons.map((comp) => ({
+    // Only pre-render the first 100 to avoid Netlify build timeout.
+    // The rest will be rendered on-demand (ISR).
+    return data.comparisons.slice(0, 100).map((comp) => ({
         slug: comp.slug,
     }));
 }

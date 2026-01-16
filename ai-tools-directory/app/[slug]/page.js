@@ -4,7 +4,8 @@ import { notFound } from 'next/navigation';
 import WaitlistForm from '../components/WaitlistForm';
 
 export async function generateStaticParams() {
-    return data.tools.map((tool) => ({
+    // Limit pre-rendering to first 1000 tools to avoid timeouts
+    return data.tools.slice(0, 1000).map((tool) => ({
         slug: tool.slug,
     }));
 }
