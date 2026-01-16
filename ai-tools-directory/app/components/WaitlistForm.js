@@ -10,6 +10,13 @@ export default function WaitlistForm() {
         e.preventDefault();
         setFormStatus('submitting');
 
+        // Check if we are on localhost
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            setFormStatus('error');
+            setFormMessage('Netlify Forms do not work on localhost. Please test on the live site!');
+            return;
+        }
+
         try {
             const response = await fetch('/', {
                 method: 'POST',
@@ -17,6 +24,7 @@ export default function WaitlistForm() {
                 body: new URLSearchParams({
                     'form-name': 'waitlist',
                     'email': email,
+                    'bot-field': '', // Include the honeypot field
                 }).toString(),
             });
 
@@ -25,6 +33,8 @@ export default function WaitlistForm() {
                 setFormMessage('You\'re on the list! We\'ll be in touch soon.');
                 setEmail('');
             } else {
+                const errorText = await response.text();
+                console.error('Netlify Form Error:', errorText);
                 throw new Error('Form submission failed');
             }
         } catch (error) {
