@@ -40,13 +40,18 @@ export default function WaitlistForm() {
                 setEmail('');
             } else {
                 const errorText = await response.text();
-                console.error('Netlify Form Error:', response.status, errorText);
-                throw new Error(`Server returned ${response.status}`);
+                console.error('Netlify Form Error details:', {
+                    status: response.status,
+                    statusText: response.statusText,
+                    url: response.url,
+                    body: errorText
+                });
+                throw new Error(`Server returned ${response.status}: ${response.statusText}`);
             }
         } catch (error) {
             console.error('Submission catch block:', error);
             setFormStatus('error');
-            setFormMessage(`Error: ${error.message || 'Check connection'}. Please try again.`);
+            setFormMessage(`Error: ${error.message}. Please try again.`);
         }
     };
 
