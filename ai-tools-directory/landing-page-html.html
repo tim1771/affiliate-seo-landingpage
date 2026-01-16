@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tool Finder for Small Business</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      line-height: 1.6;
+      color: #2d3748;
+      background: #f7fafc;
+    }
+    
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    
+    .hero h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #1a202c;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+    
+    .hero-text {
+      font-size: 1.125rem;
+      color: #4a5568;
+      margin-bottom: 16px;
+    }
+    
+    .hero-emphasis {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #2b6cb0;
+      margin-top: 24px;
+    }
+    
+    /* Section Styling */
+    section {
+      margin-bottom: 48px;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1a202c;
+      margin-bottom: 24px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    
+    /* How It Works */
+    .step {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .step-number {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      background: #2b6cb0;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+    }
+    
+    .step-content h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #1a202c;
+      margin-bottom: 4px;
+    }
+    
+    .step-content p {
+      color: #4a5568;
+      font-size: 0.95rem;
+    }
+    
+    /* For You If */
+    .checklist {
+      list-style: none;
+    }
+    
+    .checklist li {
+      padding: 12px 0;
+      padding-left: 32px;
+      position: relative;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .checklist li:last-child {
+      border-bottom: none;
+    }
+    
+    .checklist li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #38a169;
+      font-weight: 700;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+      background: white;
+      padding: 40px 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    
+    .cta-section h2 {
+      border-bottom: none;
+      margin-bottom: 16px;
+    }
+    
+    .cta-intro {
+      color: #4a5568;
+      margin-bottom: 24px;
+    }
+    
+    .benefits {
+      text-align: left;
+      max-width: 400px;
+      margin: 0 auto 32px;
+    }
+    
+    .benefits li {
+      padding: 8px 0;
+      color: #2d3748;
+    }
+    
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 360px;
+      margin: 0 auto;
+    }
+    
+    input[type="email"] {
+      padding: 14px 16px;
+      font-size: 1rem;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      transition: border-color 0.2s;
+    }
+    
+    input[type="email"]:focus {
+      outline: none;
+      border-color: #2b6cb0;
+    }
+    
+    button {
+      padding: 14px 24px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: white;
+      background: #2b6cb0;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    
+    button:hover {
+      background: #2c5282;
+    }
+    
+    .privacy-note {
+      font-size: 0.85rem;
+      color: #718096;
+      margin-top: 16px;
+    }
+    
+    /* Responsive */
+    @media (max-width: 480px) {
+      .container { padding: 40px 16px; }
+      .hero h1 { font-size: 1.75rem; }
+      .cta-section { padding: 32px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <header class="hero">
+      <h1>Stop Guessing Which AI Tools Are Right for Your Business</h1>
+      <p class="hero-text">There are thousands of AI tools promising to save you time and money. Most won't. Some will waste both.</p>
+      <p class="hero-text">The difference isn't the tool—it's the fit. The right AI tool for a restaurant isn't the right one for an accounting firm. What works for a 20-person team fails for a solo operator.</p>
+      <p class="hero-emphasis">You don't need more options. You need the right match.</p>
+    </header>
+    
+    <section>
+      <h2>How It Works</h2>
+      
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>Tell us about your business</h3>
+          <p>A short questionnaire covering your industry, team size, budget, current tech comfort level, and the specific problems eating up your time.</p>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Get matched recommendations</h3>
+          <p>Within 48 hours, you'll receive a personalized report with 3-5 AI tools selected specifically for your situation—not a generic list, but tools chosen because they fit how you actually operate.</p>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>Implement with confidence</h3>
+          <p>Each recommendation includes why it fits your business, realistic expectations for results, and practical first steps to get started.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>This Is For You If...</h2>
+      <ul class="checklist">
+        <li>You know AI tools could help your business but feel overwhelmed by the options</li>
+        <li>You've wasted money on subscriptions that didn't deliver</li>
+        <li>You don't have time to research and test dozens of tools yourself</li>
+        <li>You want honest recommendations, not affiliate-driven "best of" lists</li>
+        <li>You're a small business owner or operator, not a tech company</li>
+      </ul>
+    </section>
+    
+    <section class="cta-section">
+      <h2>Join the Early Access List</h2>
+      <p class="cta-intro">I'm launching this service to a small group first to make sure every recommendation is genuinely useful.</p>
+      
+      <ul class="benefits">
+        <li>✦ Free personalized recommendations when we launch</li>
+        <li>✦ Early access before public availability</li>
+        <li>✦ A short survey that helps shape the service</li>
+      </ul>
+      
+      <form class="form-group" action="YOUR_FORM_ENDPOINT" method="POST">
+        <input type="email" name="email" placeholder="Your email address" required>
+        <button type="submit">Join the Waitlist</button>
+      </form>
+      
+      <p class="privacy-note">No spam. Just a heads up when your recommendations are ready.</p>
+    </section>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!--
+  This file exists solely for Netlify Forms detection.
+  Since Next.js renders forms client-side, Netlify's build-time
+  parser needs this static HTML version to register the form.
+  
+  The actual form submission still happens from the React component.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Detection for Netlify</title>
+</head>
+
+<body>
+    <!-- Waitlist Form - mirrors the React form in app/page.js -->
+    <form name="waitlist" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="waitlist" />
+        <input name="bot-field" />
+        <input type="email" name="email" />
+    </form>
+</body>
+
+</html>

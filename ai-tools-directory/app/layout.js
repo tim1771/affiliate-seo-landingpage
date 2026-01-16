@@ -12,8 +12,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "AI Tools Directory 2026 - Find & Compare Best AI Software",
-  description: "Discover the best AI tools of 2026. Compare top software for writing, coding, marketing, and automation. Read unbiased reviews and find the perfect AI solution.",
+  title: "AI Tool Finder for Small Business | Get Personalized AI Recommendations",
+  description: "Stop guessing which AI tools are right for your business. Get personalized AI software recommendations matched to your industry, team size, and budget. Join the early access waitlist.",
+  keywords: ["AI tools for small business", "AI software recommendations", "best AI tools 2026", "AI directory", "business automation", "AI tool finder"],
+  authors: [{ name: "AI Directory" }],
+  openGraph: {
+    title: "Stop Guessing Which AI Tools Are Right for Your Business",
+    description: "Get personalized AI tool recommendations matched to your business. Join the early access waitlist for free recommendations.",
+    type: "website",
+    locale: "en_US",
+    siteName: "AI Tool Finder",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Tool Finder for Small Business",
+    description: "Get personalized AI recommendations matched to your industry, team size, and budget.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {

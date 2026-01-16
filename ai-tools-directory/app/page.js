@@ -64,9 +64,99 @@ export default function Home() {
       </header>
 
       <main>
+        {/* ========== LANDING PAGE HERO SECTION ========== */}
+        <section className="landing-hero">
+          <div style={{ maxWidth: '680px', margin: '0 auto', padding: '0 1rem' }}>
+            <h1>Stop Guessing Which AI Tools Are Right for Your Business</h1>
+            <p className="hero-text">
+              There are thousands of AI tools promising to save you time and money. Most won't. Some will waste both.
+            </p>
+            <p className="hero-text">
+              The difference isn't the tool—it's the fit. The right AI tool for a restaurant isn't the right one for an accounting firm. What works for a 20-person team fails for a solo operator.
+            </p>
+            <p className="hero-emphasis">You don't need more options. You need the right match.</p>
+          </div>
+
+          {/* How It Works */}
+          <div className="landing-section">
+            <h2>How It Works</h2>
+
+            <div className="step">
+              <div className="step-number">1</div>
+              <div className="step-content">
+                <h3>Tell us about your business</h3>
+                <p>A short questionnaire covering your industry, team size, budget, current tech comfort level, and the specific problems eating up your time.</p>
+              </div>
+            </div>
+
+            <div className="step">
+              <div className="step-number">2</div>
+              <div className="step-content">
+                <h3>Get matched recommendations</h3>
+                <p>Within 48 hours, you'll receive a personalized report with 3-5 AI tools selected specifically for your situation—not a generic list, but tools chosen because they fit how you actually operate.</p>
+              </div>
+            </div>
+
+            <div className="step">
+              <div className="step-number">3</div>
+              <div className="step-content">
+                <h3>Implement with confidence</h3>
+                <p>Each recommendation includes why it fits your business, realistic expectations for results, and practical first steps to get started.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* This Is For You If */}
+          <div className="landing-section">
+            <h2>This Is For You If...</h2>
+            <ul className="checklist">
+              <li>You know AI tools could help your business but feel overwhelmed by the options</li>
+              <li>You've wasted money on subscriptions that didn't deliver</li>
+              <li>You don't have time to research and test dozens of tools yourself</li>
+              <li>You want honest recommendations, not affiliate-driven "best of" lists</li>
+              <li>You're a small business owner or operator, not a tech company</li>
+            </ul>
+          </div>
+
+          {/* CTA / Waitlist Form */}
+          <div className="cta-section">
+            <h2>Join the Early Access List</h2>
+            <p className="cta-intro">I'm launching this service to a small group first to make sure every recommendation is genuinely useful.</p>
+
+            <ul className="benefits">
+              <li>✦ Free personalized recommendations when we launch</li>
+              <li>✦ Early access before public availability</li>
+              <li>✦ A short survey that helps shape the service</li>
+            </ul>
+
+            <form
+              className="form-group"
+              name="waitlist"
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="waitlist" />
+              <p style={{ display: 'none' }}>
+                <label>Don't fill this out: <input name="bot-field" /></label>
+              </p>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email address"
+                required
+              />
+              <button type="submit">Join the Waitlist</button>
+            </form>
+
+            <p className="privacy-note">No spam. Just a heads up when your recommendations are ready.</p>
+          </div>
+        </section>
+
+        {/* ========== AI TOOLS DIRECTORY SECTION ========== */}
         <div className="hero" style={{ padding: '4rem 0' }}>
-          <h1>Find the Best AI Tools in 2026</h1>
-          <p style={{ color: '#a3a3a3' }}>Curated directory of the top artificial intelligence software.</p>
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>Browse the AI Tools Directory</h2>
+          <p style={{ color: '#a3a3a3' }}>Explore our curated collection of the top artificial intelligence software.</p>
 
           {/* Search & Filter UI */}
           <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem' }}>
