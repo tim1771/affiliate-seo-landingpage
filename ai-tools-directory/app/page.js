@@ -7,6 +7,39 @@ export default function Home() {
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
 
+  // Waitlist form state
+  const [email, setEmail] = useState('');
+  const [formStatus, setFormStatus] = useState('idle'); // idle, submitting, success, error
+  const [formMessage, setFormMessage] = useState('');
+
+  // Handle waitlist form submission
+  const handleWaitlistSubmit = async (e) => {
+    e.preventDefault();
+    setFormStatus('submitting');
+
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'waitlist',
+          'email': email,
+        }).toString(),
+      });
+
+      if (response.ok) {
+        setFormStatus('success');
+        setFormMessage('You\'re on the list! We\'ll be in touch soon.');
+        setEmail('');
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      setFormStatus('error');
+      setFormMessage('Something went wrong. Please try again.');
+    }
+  };
+
   // Extract unique categories
   const categories = useMemo(() => {
     const allCats = data.tools.flatMap(t => t.categories);
@@ -129,25 +162,44 @@ export default function Home() {
               <li>✦ A short survey that helps shape the service</li>
             </ul>
 
-            <form
-              className="form-group"
-              name="waitlist"
-              method="POST"
-              data-netlify="true"
-              netlify-honeypot="bot-field"
-            >
-              <input type="hidden" name="form-name" value="waitlist" />
-              <p style={{ display: 'none' }}>
-                <label>Don't fill this out: <input name="bot-field" /></label>
-              </p>
-              <input
-                type="email"
-                name="email"
-                placeholder="Your email address"
-                required
-              />
-              <button type="submit">Join the Waitlist</button>
-            </form>
+            {formStatus === 'success' ? (
+              <div style={{
+                padding: '1.5rem',
+                background: 'rgba(34, 197, 94, 0.1)',
+                border: '1px solid rgba(34, 197, 94, 0.3)',
+                borderRadius: '8px',
+                color: '#22c55e',
+                textAlign: 'center'
+              }}>
+                <p style={{ fontSize: '1.1rem', fontWeight: '600', margin: 0 }}>🎉 {formMessage}</p>
+              </div>
+            ) : (
+              <form
+                className="form-group"
+                name="waitlist"
+                onSubmit={handleWaitlistSubmit}
+              >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your email address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  disabled={formStatus === 'submitting'}
+                />
+                <button
+                  type="submit"
+                  disabled={formStatus === 'submitting'}
+                  style={{ opacity: formStatus === 'submitting' ? 0.7 : 1 }}
+                >
+                  {formStatus === 'submitting' ? 'Joining...' : 'Join the Waitlist'}
+                </button>
+                {formStatus === 'error' && (
+                  <p style={{ color: '#ef4444', fontSize: '0.9rem', margin: '0.5rem 0 0' }}>{formMessage}</p>
+                )}
+              </form>
+            )}
 
             <p className="privacy-note">No spam. Just a heads up when your recommendations are ready.</p>
           </div>
