@@ -9,37 +9,44 @@ export default function WaitlistForm() {
     const handleWaitlistSubmit = async (e) => {
         e.preventDefault();
         setFormStatus('submitting');
+        setFormMessage('');
 
         // Check if we are on localhost
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
             setFormStatus('error');
-            setFormMessage('Netlify Forms do not work on localhost. Please test on the live site!');
+            setFormMessage('Netlify Forms do not work on localhost. Use the live URL to test!');
             return;
         }
 
         try {
+            // Standard encoding for Netlify forms
+            const formData = new URLSearchParams();
+            formData.append('form-name', 'waitlist');
+            formData.append('email', email);
+            formData.append('bot-field', '');
+
+            console.log('Submitting form to Netlify...', Object.fromEntries(formData));
+
             const response = await fetch('/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams({
-                    'form-name': 'waitlist',
-                    'email': email,
-                    'bot-field': '', // Include the honeypot field
-                }).toString(),
+                body: formData.toString(),
             });
 
             if (response.ok) {
+                console.log('Netlify submission successful!');
                 setFormStatus('success');
                 setFormMessage('You\'re on the list! We\'ll be in touch soon.');
                 setEmail('');
             } else {
                 const errorText = await response.text();
-                console.error('Netlify Form Error:', errorText);
-                throw new Error('Form submission failed');
+                console.error('Netlify Form Error:', response.status, errorText);
+                throw new Error(`Server returned ${response.status}`);
             }
         } catch (error) {
+            console.error('Submission catch block:', error);
             setFormStatus('error');
-            setFormMessage('Something went wrong. Please try again.');
+            setFormMessage(`Error: ${error.message || 'Check connection'}. Please try again.`);
         }
     };
 
@@ -70,7 +77,15 @@ export default function WaitlistForm() {
                     className="form-group"
                     name="waitlist"
                     onSubmit={handleWaitlistSubmit}
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
                 >
+                    {/* Include hidden fields even for AJAX submission */}
+                    <input type="hidden" name="form-name" value="waitlist" />
+                    <div style={{ display: 'none' }}>
+                        <label>Don't fill this out: <input name="bot-field" /></label>
+                    </div>
+
                     <input
                         type="email"
                         name="email"
@@ -87,8 +102,11 @@ export default function WaitlistForm() {
                     >
                         {formStatus === 'submitting' ? 'Joining...' : 'Join the Waitlist'}
                     </button>
+
                     {formStatus === 'error' && (
-                        <p style={{ color: '#ef4444', fontSize: '0.9rem', margin: '0.5rem 0 0' }}>{formMessage}</p>
+                        <p style={{ color: '#ef4444', fontSize: '0.9rem', margin: '1rem 0 0', background: 'rgba(239, 68, 68, 0.1)', padding: '0.5rem', borderRadius: '4px' }}>
+                            {formMessage}
+                        </p>
                     )}
                 </form>
             )}
