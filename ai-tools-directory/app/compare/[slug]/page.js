@@ -1,6 +1,7 @@
 import data from '../../../lib/data.json';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import WaitlistForm from '../../components/WaitlistForm';
 
 export async function generateStaticParams() {
     if (!data.comparisons) return [];
@@ -89,6 +90,9 @@ export default async function ComparisonPage({ params }) {
                     </p>
                 </section>
 
+                <div style={{ marginTop: '5rem' }}>
+                    <WaitlistForm />
+                </div>
             </main>
 
             <footer style={{ padding: '2rem 0', textAlign: 'center', color: '#666', borderTop: '1px solid #262626' }}>

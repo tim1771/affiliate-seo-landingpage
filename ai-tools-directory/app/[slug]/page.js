@@ -1,6 +1,7 @@
 import data from '../../lib/data.json';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import WaitlistForm from '../components/WaitlistForm';
 
 export async function generateStaticParams() {
     return data.tools.map((tool) => ({
@@ -171,10 +172,14 @@ export default async function ToolPage({ params }) {
                         Get Started with {tool.name}
                     </a>
                 </section>
+
+                <div style={{ marginTop: '5rem' }}>
+                    <WaitlistForm />
+                </div>
             </main>
 
             <footer style={{ padding: '2rem 0', textAlign: 'center', color: '#666', borderTop: '1px solid #262626' }}>
-                <p>© 2025 AI Directory. All rights reserved.</p>
+                <p>© 2026 AI Directory. All rights reserved.</p>
             </footer>
         </div>
     );
