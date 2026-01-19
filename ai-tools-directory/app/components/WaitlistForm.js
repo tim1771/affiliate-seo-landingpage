@@ -22,14 +22,16 @@ export default function WaitlistForm() {
             // Standard encoding for Netlify forms
             const formData = new URLSearchParams();
             formData.append('form-name', 'waitlist');
-            formData.append('email', email);
+            formData.append('email', email.trim().toLowerCase());
             formData.append('bot-field', '');
 
-            console.log('Submitting form to Netlify...', Object.fromEntries(formData));
+            console.log('Final submission check:', Object.fromEntries(formData));
 
             const response = await fetch('/__forms.html', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
                 body: formData.toString(),
             });
 

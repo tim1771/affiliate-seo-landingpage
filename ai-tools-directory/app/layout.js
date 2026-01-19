@@ -53,13 +53,6 @@ export default function RootLayout({ children }) {
           </a>
         </div>
 
-        {/* Hidden Form for Netlify Detection (Next.js Workaround) */}
-        <form name="waitlist" data-netlify="true" netlify-honeypot="bot-field" hidden>
-          <input type="hidden" name="form-name" value="waitlist" />
-          <input name="bot-field" />
-          <input type="email" name="email" />
-        </form>
-
         {children}
       </body>
     </html>
