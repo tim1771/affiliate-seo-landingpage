@@ -27,7 +27,7 @@ export default function WaitlistForm() {
 
             console.log('Submitting form to Netlify...', Object.fromEntries(formData));
 
-            const response = await fetch('/', {
+            const response = await fetch('/__forms.html', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: formData.toString(),
@@ -82,10 +82,8 @@ export default function WaitlistForm() {
                     className="form-group"
                     name="waitlist"
                     onSubmit={handleWaitlistSubmit}
-                    data-netlify="true"
-                    netlify-honeypot="bot-field"
                 >
-                    {/* Include hidden fields even for AJAX submission */}
+                    {/* Hidden fields for Netlify identification */}
                     <input type="hidden" name="form-name" value="waitlist" />
                     <div style={{ display: 'none' }}>
                         <label>Don't fill this out: <input name="bot-field" /></label>
