@@ -227,6 +227,46 @@ export default function Home() {
             </button>
           </div>
         )}
+        {/* Popular Comparisons Section */}
+        {data.comparisons && data.comparisons.length > 0 && (
+          <div style={{ marginTop: '5rem', padding: '3rem 0', borderTop: '1px solid #262626' }}>
+            <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', textAlign: 'center' }}>Popular AI Tool Face-Offs</h2>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
+              {data.comparisons.slice(0, 15).map((comp) => (
+                <Link
+                  href={`/compare/${comp.slug}`}
+                  key={comp.slug}
+                  className="card"
+                  style={{
+                    padding: '1rem 1.5rem',
+                    borderRadius: '50px',
+                    textDecoration: 'none',
+                    fontSize: '0.9rem',
+                    background: 'rgba(255,255,255,0.02)',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    transition: 'all 0.2s ease'
+                  }}
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.borderColor = 'var(--primary)';
+                    e.currentTarget.style.background = 'rgba(99, 102, 241, 0.05)';
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.02)';
+                  }}
+                >
+                  {comp.title.replace(': Which AI Tool is Better in 2026?', '')}
+                </Link>
+              ))}
+              {data.comparisons.length > 15 && (
+                <div style={{ width: '100%', textAlign: 'center', marginTop: '1rem' }}>
+                  <p style={{ color: '#666', fontSize: '0.9rem' }}>+ thousands more deep-dive comparisons</p>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* Rich SEO Content Section */}
         <div style={{ marginTop: '5rem', padding: '3rem 0', borderTop: '1px solid #262626' }}>
           <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>Why Use Our AI Tools Directory?</h2>

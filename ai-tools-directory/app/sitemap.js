@@ -10,6 +10,13 @@ export default function sitemap() {
         priority: 0.8,
     }));
 
+    const comparisons = (data.comparisons || []).map((comp) => ({
+        url: `https://aitools2026.netlify.app/compare/${comp.slug}`,
+        lastModified: new Date().toISOString(),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+    }));
+
     return [
         {
             url: 'https://aitools2026.netlify.app',
@@ -18,5 +25,6 @@ export default function sitemap() {
             priority: 1,
         },
         ...tools,
+        ...comparisons,
     ];
 }

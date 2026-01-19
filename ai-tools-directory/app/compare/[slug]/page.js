@@ -3,6 +3,27 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import WaitlistForm from '../../components/WaitlistForm';
 
+export async function generateMetadata({ params }) {
+    const { slug } = await params;
+    const comparison = data.comparisons?.find((c) => c.slug === slug);
+    if (!comparison) return {};
+
+    const toolA = data.tools.find(t => t.slug === comparison.toolA);
+    const toolB = data.tools.find(t => t.slug === comparison.toolB);
+
+    const title = `${toolA.name} vs ${toolB.name} (2026): Which is better?`;
+    const description = `Compare ${toolA.name} vs ${toolB.name} pricing, features, and reviews. Discover which AI tool is best for ${comparison.shared_categories[0]} in 2026.`;
+
+    return {
+        title: `${title} | AI Directory`,
+        description: description,
+        openGraph: {
+            title: title,
+            description: description,
+        }
+    };
+}
+
 export async function generateStaticParams() {
     if (!data.comparisons) return [];
     // Only pre-render the first 100 to avoid Netlify build timeout.
