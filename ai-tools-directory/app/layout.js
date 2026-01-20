@@ -1,5 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +38,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <GoogleAnalytics gaId="G-87085FKS3N" />
         {/* Featured Partner Banner */}
         <div style={{
           background: 'linear-gradient(to right, #6366f1, #a855f7, #ec4899)',
