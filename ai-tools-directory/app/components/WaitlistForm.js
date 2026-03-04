@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 export default function WaitlistForm() {
     const [email, setEmail] = useState('');
+    const [botField, setBotField] = useState('');
     const [formStatus, setFormStatus] = useState('idle'); // idle, submitting, success, error
     const [formMessage, setFormMessage] = useState('');
 
@@ -23,7 +24,7 @@ export default function WaitlistForm() {
             const formData = new URLSearchParams();
             formData.append('form-name', 'waitlist');
             formData.append('email', email.trim().toLowerCase());
-            formData.append('bot-field', '');
+            formData.append('bot-field', botField);
 
             console.log('Final submission check:', Object.fromEntries(formData));
 
@@ -88,7 +89,7 @@ export default function WaitlistForm() {
                     {/* Hidden fields for Netlify identification */}
                     <input type="hidden" name="form-name" value="waitlist" />
                     <div style={{ display: 'none' }}>
-                        <label>Don't fill this out: <input name="bot-field" /></label>
+                        <label>Don't fill this out: <input name="bot-field" value={botField} onChange={(e) => setBotField(e.target.value)} tabIndex="-1" autoComplete="off" /></label>
                     </div>
 
                     <input

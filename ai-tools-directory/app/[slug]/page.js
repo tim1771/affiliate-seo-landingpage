@@ -55,7 +55,7 @@ export default async function ToolPage({ params }) {
             {/* Inject JSON-LD */}
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
             />
 
             <header>
@@ -75,7 +75,7 @@ export default async function ToolPage({ params }) {
                         {tool.verdict}
                     </p>
                     <div style={{ marginTop: '2rem' }}>
-                        <a href={`/go/${tool.slug}`} target="_blank" rel="noopener noreferrer" className="btn btn-gradient" style={{ padding: '1rem 2rem', fontSize: '1.2rem' }}>
+                        <a href={`/go/${tool.slug}`} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-gradient" style={{ padding: '1rem 2rem', fontSize: '1.2rem' }}>
                             Visit {tool.name} Website →
                         </a>
                     </div>
@@ -169,7 +169,7 @@ export default async function ToolPage({ params }) {
                     <h2>Ready to try {tool.name}?</h2>
                     <p>Join thousands of professionals using {tool.name} to streamline their workflow.</p>
                     <br />
-                    <a href={`/go/${tool.slug}`} target="_blank" rel="noopener noreferrer" className="btn btn-gradient">
+                    <a href={`/go/${tool.slug}`} target="_blank" rel="noopener noreferrer nofollow" className="btn btn-gradient">
                         Get Started with {tool.name}
                     </a>
                 </section>
